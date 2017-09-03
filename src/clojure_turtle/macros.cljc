@@ -1,6 +1,8 @@
 (ns clojure-turtle.macros
   (:refer-clojure :exclude [repeat]))
 
+;; WARNING: this file is only here because ClojureScript require macro definition at runtime
+
 (defmacro all
   "This macro was created to substitute for the purpose served by the square brackets in Logo
   in a call to REPEAT.  This macro returns a no-argument function that, when invoked, executes
