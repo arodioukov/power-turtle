@@ -24,10 +24,10 @@ if((ns instanceof cljs.core.Symbol)){
 throw (new Error("Assert failed: (symbol? ns)"));
 }
 
-return cljs.core.into.call(null,cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.call(null,(function (p__40323){
-var vec__40324 = p__40323;
-var k = cljs.core.nth.call(null,vec__40324,(0),null);
-var v = cljs.core.nth.call(null,vec__40324,(1),null);
+return cljs.core.into.call(null,cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.call(null,(function (p__39417){
+var vec__39418 = p__39417;
+var k = cljs.core.nth.call(null,vec__39418,(0),null);
+var v = cljs.core.nth.call(null,vec__39418,(1),null);
 return new cljs.core.Keyword(null,"private","private",-558947994).cljs$core$IFn$_invoke$arity$1(v);
 }),cljs.core.merge.call(null,cljs.core.get_in.call(null,state,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("cljs.analyzer","namespaces","cljs.analyzer/namespaces",-260788927),ns,new cljs.core.Keyword(null,"macros","macros",811339431)], null)),cljs.core.get_in.call(null,state,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("cljs.analyzer","namespaces","cljs.analyzer/namespaces",-260788927),ns,new cljs.core.Keyword(null,"defs","defs",1398449717)], null)))));
 });
@@ -345,8 +345,8 @@ return cljs.core.update_in.call(null,state,new cljs.core.PersistentVector(null, 
  *   namespace aliases.
  */
 replumb.ast.dissoc_all = (function replumb$ast$dissoc_all(var_args){
-var G__40335 = arguments.length;
-switch (G__40335) {
+var G__39429 = arguments.length;
+switch (G__39429) {
 case 3:
 return replumb.ast.dissoc_all.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -366,63 +366,63 @@ return replumb.ast.dissoc_all.call(null,state,requirer_ns,required_ns,new cljs.c
 });
 
 replumb.ast.dissoc_all.cljs$core$IFn$_invoke$arity$4 = (function (state,requirer_ns,required_ns,type){
-var vec__40336 = (function (){var G__40339 = type;
-var G__40339__$1 = (((G__40339 instanceof cljs.core.Keyword))?G__40339.fqn:null);
-switch (G__40339__$1) {
+var vec__39430 = (function (){var G__39433 = type;
+var G__39433__$1 = (((G__39433 instanceof cljs.core.Keyword))?G__39433.fqn:null);
+switch (G__39433__$1) {
 case "require":
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [replumb.ast.requires,((function (G__40339,G__40339__$1){
-return (function (p1__40327_SHARP_){
-return replumb.ast.require_of_ns_QMARK_.call(null,required_ns,cljs.core.second.call(null,p1__40327_SHARP_));
-});})(G__40339,G__40339__$1))
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [replumb.ast.requires,((function (G__39433,G__39433__$1){
+return (function (p1__39421_SHARP_){
+return replumb.ast.require_of_ns_QMARK_.call(null,required_ns,cljs.core.second.call(null,p1__39421_SHARP_));
+});})(G__39433,G__39433__$1))
 ,replumb.ast.dissoc_require], null);
 
 break;
 case "macro-require":
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [replumb.ast.macro_requires,((function (G__40339,G__40339__$1){
-return (function (p1__40328_SHARP_){
-return replumb.ast.require_of_ns_QMARK_.call(null,required_ns,cljs.core.second.call(null,p1__40328_SHARP_));
-});})(G__40339,G__40339__$1))
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [replumb.ast.macro_requires,((function (G__39433,G__39433__$1){
+return (function (p1__39422_SHARP_){
+return replumb.ast.require_of_ns_QMARK_.call(null,required_ns,cljs.core.second.call(null,p1__39422_SHARP_));
+});})(G__39433,G__39433__$1))
 ,replumb.ast.dissoc_macro_require], null);
 
 break;
 case "symbol":
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [replumb.ast.symbols,((function (G__40339,G__40339__$1){
-return (function (p1__40329_SHARP_){
-return replumb.ast.symbol_of_ns_QMARK_.call(null,required_ns,cljs.core.second.call(null,p1__40329_SHARP_));
-});})(G__40339,G__40339__$1))
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [replumb.ast.symbols,((function (G__39433,G__39433__$1){
+return (function (p1__39423_SHARP_){
+return replumb.ast.symbol_of_ns_QMARK_.call(null,required_ns,cljs.core.second.call(null,p1__39423_SHARP_));
+});})(G__39433,G__39433__$1))
 ,replumb.ast.dissoc_symbol], null);
 
 break;
 case "macro":
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [replumb.ast.macros,((function (G__40339,G__40339__$1){
-return (function (p1__40330_SHARP_){
-return replumb.ast.macro_of_ns_QMARK_.call(null,required_ns,cljs.core.second.call(null,p1__40330_SHARP_));
-});})(G__40339,G__40339__$1))
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [replumb.ast.macros,((function (G__39433,G__39433__$1){
+return (function (p1__39424_SHARP_){
+return replumb.ast.macro_of_ns_QMARK_.call(null,required_ns,cljs.core.second.call(null,p1__39424_SHARP_));
+});})(G__39433,G__39433__$1))
 ,replumb.ast.dissoc_macro], null);
 
 break;
 case "import":
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [replumb.ast.imports,((function (G__40339,G__40339__$1){
-return (function (p1__40331_SHARP_){
-return replumb.ast.import_of_ns_QMARK_.call(null,required_ns,cljs.core.second.call(null,p1__40331_SHARP_));
-});})(G__40339,G__40339__$1))
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [replumb.ast.imports,((function (G__39433,G__39433__$1){
+return (function (p1__39425_SHARP_){
+return replumb.ast.import_of_ns_QMARK_.call(null,required_ns,cljs.core.second.call(null,p1__39425_SHARP_));
+});})(G__39433,G__39433__$1))
 ,replumb.ast.dissoc_import], null);
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__40339__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__39433__$1)].join('')));
 
 }
 })();
-var get_fn = cljs.core.nth.call(null,vec__40336,(0),null);
-var pred = cljs.core.nth.call(null,vec__40336,(1),null);
-var dissoc_fn = cljs.core.nth.call(null,vec__40336,(2),null);
+var get_fn = cljs.core.nth.call(null,vec__39430,(0),null);
+var pred = cljs.core.nth.call(null,vec__39430,(1),null);
+var dissoc_fn = cljs.core.nth.call(null,vec__39430,(2),null);
 var syms = get_fn.call(null,state,requirer_ns);
 var required_syms = cljs.core.map.call(null,cljs.core.first,cljs.core.filter.call(null,pred,syms));
-return cljs.core.reduce.call(null,((function (syms,required_syms,vec__40336,get_fn,pred,dissoc_fn){
-return (function (p1__40332_SHARP_,p2__40333_SHARP_){
-return dissoc_fn.call(null,p1__40332_SHARP_,requirer_ns,p2__40333_SHARP_);
-});})(syms,required_syms,vec__40336,get_fn,pred,dissoc_fn))
+return cljs.core.reduce.call(null,((function (syms,required_syms,vec__39430,get_fn,pred,dissoc_fn){
+return (function (p1__39426_SHARP_,p2__39427_SHARP_){
+return dissoc_fn.call(null,p1__39426_SHARP_,requirer_ns,p2__39427_SHARP_);
+});})(syms,required_syms,vec__39430,get_fn,pred,dissoc_fn))
 ,state,required_syms);
 });
 
@@ -468,4 +468,4 @@ replumb.ast.empty_state_QMARK_ = (function replumb$ast$empty_state_QMARK_(state,
 return cljs.core.every_QMARK_.call(null,cljs.core.empty_QMARK_,cljs.core.vals.call(null,replumb.ast.get_state.call(null,state,requirer_ns)));
 });
 
-//# sourceMappingURL=ast.js.map?rel=1506931010326
+//# sourceMappingURL=ast.js.map?rel=1506931525363

@@ -47,18 +47,18 @@ var turt = this;
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.select_keys.call(null,turt,cljs.core.keys.call(null,turt)))].join('');
 });
 
-clojure_turtle.core.Turtle.prototype.cljs$core$ILookup$_lookup$arity$2 = (function (this__29466__auto__,k__29467__auto__){
+clojure_turtle.core.Turtle.prototype.cljs$core$ILookup$_lookup$arity$2 = (function (this__28779__auto__,k__28780__auto__){
 var self__ = this;
-var this__29466__auto____$1 = this;
-return this__29466__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__29467__auto__,null);
+var this__28779__auto____$1 = this;
+return this__28779__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__28780__auto__,null);
 });
 
-clojure_turtle.core.Turtle.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__29468__auto__,k33347,else__29469__auto__){
+clojure_turtle.core.Turtle.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__28781__auto__,k32441,else__28782__auto__){
 var self__ = this;
-var this__29468__auto____$1 = this;
-var G__33351 = k33347;
-var G__33351__$1 = (((G__33351 instanceof cljs.core.Keyword))?G__33351.fqn:null);
-switch (G__33351__$1) {
+var this__28781__auto____$1 = this;
+var G__32445 = k32441;
+var G__32445__$1 = (((G__32445 instanceof cljs.core.Keyword))?G__32445.fqn:null);
+switch (G__32445__$1) {
 case "x":
 return self__.x;
 
@@ -92,139 +92,139 @@ return self__.start_from;
 
 break;
 default:
-return cljs.core.get.call(null,self__.__extmap,k33347,else__29469__auto__);
+return cljs.core.get.call(null,self__.__extmap,k32441,else__28782__auto__);
 
 }
 });
 
-clojure_turtle.core.Turtle.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (this__29480__auto__,writer__29481__auto__,opts__29482__auto__){
+clojure_turtle.core.Turtle.prototype.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = (function (this__28793__auto__,writer__28794__auto__,opts__28795__auto__){
 var self__ = this;
-var this__29480__auto____$1 = this;
-var pr_pair__29483__auto__ = ((function (this__29480__auto____$1){
-return (function (keyval__29484__auto__){
-return cljs.core.pr_sequential_writer.call(null,writer__29481__auto__,cljs.core.pr_writer,""," ","",opts__29482__auto__,keyval__29484__auto__);
-});})(this__29480__auto____$1))
+var this__28793__auto____$1 = this;
+var pr_pair__28796__auto__ = ((function (this__28793__auto____$1){
+return (function (keyval__28797__auto__){
+return cljs.core.pr_sequential_writer.call(null,writer__28794__auto__,cljs.core.pr_writer,""," ","",opts__28795__auto__,keyval__28797__auto__);
+});})(this__28793__auto____$1))
 ;
-return cljs.core.pr_sequential_writer.call(null,writer__29481__auto__,pr_pair__29483__auto__,"#clojure-turtle.core.Turtle{",", ","}",opts__29482__auto__,cljs.core.concat.call(null,new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"x","x",2099068185),self__.x],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"y","y",-1757859776),self__.y],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"angle","angle",1622094254),self__.angle],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"pen","pen",2006675445),self__.pen],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"color","color",1011675173),self__.color],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"fill","fill",883462889),self__.fill],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"commands","commands",161008658),self__.commands],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"start-from","start-from",1934364841),self__.start_from],null))], null),self__.__extmap));
+return cljs.core.pr_sequential_writer.call(null,writer__28794__auto__,pr_pair__28796__auto__,"#clojure-turtle.core.Turtle{",", ","}",opts__28795__auto__,cljs.core.concat.call(null,new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"x","x",2099068185),self__.x],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"y","y",-1757859776),self__.y],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"angle","angle",1622094254),self__.angle],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"pen","pen",2006675445),self__.pen],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"color","color",1011675173),self__.color],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"fill","fill",883462889),self__.fill],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"commands","commands",161008658),self__.commands],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"start-from","start-from",1934364841),self__.start_from],null))], null),self__.__extmap));
 });
 
-clojure_turtle.core.Turtle.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__33346){
+clojure_turtle.core.Turtle.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__32440){
 var self__ = this;
-var G__33346__$1 = this;
-return (new cljs.core.RecordIter((0),G__33346__$1,8,new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"x","x",2099068185),new cljs.core.Keyword(null,"y","y",-1757859776),new cljs.core.Keyword(null,"angle","angle",1622094254),new cljs.core.Keyword(null,"pen","pen",2006675445),new cljs.core.Keyword(null,"color","color",1011675173),new cljs.core.Keyword(null,"fill","fill",883462889),new cljs.core.Keyword(null,"commands","commands",161008658),new cljs.core.Keyword(null,"start-from","start-from",1934364841)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator.call(null,self__.__extmap):cljs.core.nil_iter.call(null))));
+var G__32440__$1 = this;
+return (new cljs.core.RecordIter((0),G__32440__$1,8,new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"x","x",2099068185),new cljs.core.Keyword(null,"y","y",-1757859776),new cljs.core.Keyword(null,"angle","angle",1622094254),new cljs.core.Keyword(null,"pen","pen",2006675445),new cljs.core.Keyword(null,"color","color",1011675173),new cljs.core.Keyword(null,"fill","fill",883462889),new cljs.core.Keyword(null,"commands","commands",161008658),new cljs.core.Keyword(null,"start-from","start-from",1934364841)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator.call(null,self__.__extmap):cljs.core.nil_iter.call(null))));
 });
 
-clojure_turtle.core.Turtle.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__29464__auto__){
+clojure_turtle.core.Turtle.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__28777__auto__){
 var self__ = this;
-var this__29464__auto____$1 = this;
+var this__28777__auto____$1 = this;
 return self__.__meta;
 });
 
-clojure_turtle.core.Turtle.prototype.cljs$core$ICloneable$_clone$arity$1 = (function (this__29461__auto__){
+clojure_turtle.core.Turtle.prototype.cljs$core$ICloneable$_clone$arity$1 = (function (this__28774__auto__){
 var self__ = this;
-var this__29461__auto____$1 = this;
+var this__28774__auto____$1 = this;
 return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,self__.color,self__.fill,self__.commands,self__.start_from,self__.__meta,self__.__extmap,self__.__hash));
 });
 
-clojure_turtle.core.Turtle.prototype.cljs$core$ICounted$_count$arity$1 = (function (this__29470__auto__){
+clojure_turtle.core.Turtle.prototype.cljs$core$ICounted$_count$arity$1 = (function (this__28783__auto__){
 var self__ = this;
-var this__29470__auto____$1 = this;
+var this__28783__auto____$1 = this;
 return (8 + cljs.core.count.call(null,self__.__extmap));
 });
 
-clojure_turtle.core.Turtle.prototype.cljs$core$IHash$_hash$arity$1 = (function (this__29462__auto__){
+clojure_turtle.core.Turtle.prototype.cljs$core$IHash$_hash$arity$1 = (function (this__28775__auto__){
 var self__ = this;
-var this__29462__auto____$1 = this;
-var h__29280__auto__ = self__.__hash;
-if(!((h__29280__auto__ == null))){
-return h__29280__auto__;
+var this__28775__auto____$1 = this;
+var h__28593__auto__ = self__.__hash;
+if(!((h__28593__auto__ == null))){
+return h__28593__auto__;
 } else {
-var h__29280__auto____$1 = ((function (h__29280__auto__,this__29462__auto____$1){
-return (function (coll__29463__auto__){
-return (1301349890 ^ cljs.core.hash_unordered_coll.call(null,coll__29463__auto__));
-});})(h__29280__auto__,this__29462__auto____$1))
-.call(null,this__29462__auto____$1);
-self__.__hash = h__29280__auto____$1;
+var h__28593__auto____$1 = ((function (h__28593__auto__,this__28775__auto____$1){
+return (function (coll__28776__auto__){
+return (1301349890 ^ cljs.core.hash_unordered_coll.call(null,coll__28776__auto__));
+});})(h__28593__auto__,this__28775__auto____$1))
+.call(null,this__28775__auto____$1);
+self__.__hash = h__28593__auto____$1;
 
-return h__29280__auto____$1;
+return h__28593__auto____$1;
 }
 });
 
-clojure_turtle.core.Turtle.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this33348,other33349){
+clojure_turtle.core.Turtle.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this32442,other32443){
 var self__ = this;
-var this33348__$1 = this;
-return (!((other33349 == null))) && ((this33348__$1.constructor === other33349.constructor)) && (cljs.core._EQ_.call(null,this33348__$1.x,other33349.x)) && (cljs.core._EQ_.call(null,this33348__$1.y,other33349.y)) && (cljs.core._EQ_.call(null,this33348__$1.angle,other33349.angle)) && (cljs.core._EQ_.call(null,this33348__$1.pen,other33349.pen)) && (cljs.core._EQ_.call(null,this33348__$1.color,other33349.color)) && (cljs.core._EQ_.call(null,this33348__$1.fill,other33349.fill)) && (cljs.core._EQ_.call(null,this33348__$1.commands,other33349.commands)) && (cljs.core._EQ_.call(null,this33348__$1.start_from,other33349.start_from)) && (cljs.core._EQ_.call(null,this33348__$1.__extmap,other33349.__extmap));
+var this32442__$1 = this;
+return (!((other32443 == null))) && ((this32442__$1.constructor === other32443.constructor)) && (cljs.core._EQ_.call(null,this32442__$1.x,other32443.x)) && (cljs.core._EQ_.call(null,this32442__$1.y,other32443.y)) && (cljs.core._EQ_.call(null,this32442__$1.angle,other32443.angle)) && (cljs.core._EQ_.call(null,this32442__$1.pen,other32443.pen)) && (cljs.core._EQ_.call(null,this32442__$1.color,other32443.color)) && (cljs.core._EQ_.call(null,this32442__$1.fill,other32443.fill)) && (cljs.core._EQ_.call(null,this32442__$1.commands,other32443.commands)) && (cljs.core._EQ_.call(null,this32442__$1.start_from,other32443.start_from)) && (cljs.core._EQ_.call(null,this32442__$1.__extmap,other32443.__extmap));
 });
 
-clojure_turtle.core.Turtle.prototype.cljs$core$IMap$_dissoc$arity$2 = (function (this__29475__auto__,k__29476__auto__){
+clojure_turtle.core.Turtle.prototype.cljs$core$IMap$_dissoc$arity$2 = (function (this__28788__auto__,k__28789__auto__){
 var self__ = this;
-var this__29475__auto____$1 = this;
-if(cljs.core.contains_QMARK_.call(null,new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 8, [new cljs.core.Keyword(null,"y","y",-1757859776),null,new cljs.core.Keyword(null,"color","color",1011675173),null,new cljs.core.Keyword(null,"start-from","start-from",1934364841),null,new cljs.core.Keyword(null,"fill","fill",883462889),null,new cljs.core.Keyword(null,"angle","angle",1622094254),null,new cljs.core.Keyword(null,"commands","commands",161008658),null,new cljs.core.Keyword(null,"pen","pen",2006675445),null,new cljs.core.Keyword(null,"x","x",2099068185),null], null), null),k__29476__auto__)){
-return cljs.core.dissoc.call(null,cljs.core._with_meta.call(null,cljs.core.into.call(null,cljs.core.PersistentArrayMap.EMPTY,this__29475__auto____$1),self__.__meta),k__29476__auto__);
+var this__28788__auto____$1 = this;
+if(cljs.core.contains_QMARK_.call(null,new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 8, [new cljs.core.Keyword(null,"y","y",-1757859776),null,new cljs.core.Keyword(null,"color","color",1011675173),null,new cljs.core.Keyword(null,"start-from","start-from",1934364841),null,new cljs.core.Keyword(null,"fill","fill",883462889),null,new cljs.core.Keyword(null,"angle","angle",1622094254),null,new cljs.core.Keyword(null,"commands","commands",161008658),null,new cljs.core.Keyword(null,"pen","pen",2006675445),null,new cljs.core.Keyword(null,"x","x",2099068185),null], null), null),k__28789__auto__)){
+return cljs.core.dissoc.call(null,cljs.core._with_meta.call(null,cljs.core.into.call(null,cljs.core.PersistentArrayMap.EMPTY,this__28788__auto____$1),self__.__meta),k__28789__auto__);
 } else {
-return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,self__.color,self__.fill,self__.commands,self__.start_from,self__.__meta,cljs.core.not_empty.call(null,cljs.core.dissoc.call(null,self__.__extmap,k__29476__auto__)),null));
-}
-});
-
-clojure_turtle.core.Turtle.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__29473__auto__,k__29474__auto__,G__33346){
-var self__ = this;
-var this__29473__auto____$1 = this;
-var pred__33352 = cljs.core.keyword_identical_QMARK_;
-var expr__33353 = k__29474__auto__;
-if(cljs.core.truth_(pred__33352.call(null,new cljs.core.Keyword(null,"x","x",2099068185),expr__33353))){
-return (new clojure_turtle.core.Turtle(G__33346,self__.y,self__.angle,self__.pen,self__.color,self__.fill,self__.commands,self__.start_from,self__.__meta,self__.__extmap,null));
-} else {
-if(cljs.core.truth_(pred__33352.call(null,new cljs.core.Keyword(null,"y","y",-1757859776),expr__33353))){
-return (new clojure_turtle.core.Turtle(self__.x,G__33346,self__.angle,self__.pen,self__.color,self__.fill,self__.commands,self__.start_from,self__.__meta,self__.__extmap,null));
-} else {
-if(cljs.core.truth_(pred__33352.call(null,new cljs.core.Keyword(null,"angle","angle",1622094254),expr__33353))){
-return (new clojure_turtle.core.Turtle(self__.x,self__.y,G__33346,self__.pen,self__.color,self__.fill,self__.commands,self__.start_from,self__.__meta,self__.__extmap,null));
-} else {
-if(cljs.core.truth_(pred__33352.call(null,new cljs.core.Keyword(null,"pen","pen",2006675445),expr__33353))){
-return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,G__33346,self__.color,self__.fill,self__.commands,self__.start_from,self__.__meta,self__.__extmap,null));
-} else {
-if(cljs.core.truth_(pred__33352.call(null,new cljs.core.Keyword(null,"color","color",1011675173),expr__33353))){
-return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,G__33346,self__.fill,self__.commands,self__.start_from,self__.__meta,self__.__extmap,null));
-} else {
-if(cljs.core.truth_(pred__33352.call(null,new cljs.core.Keyword(null,"fill","fill",883462889),expr__33353))){
-return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,self__.color,G__33346,self__.commands,self__.start_from,self__.__meta,self__.__extmap,null));
-} else {
-if(cljs.core.truth_(pred__33352.call(null,new cljs.core.Keyword(null,"commands","commands",161008658),expr__33353))){
-return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,self__.color,self__.fill,G__33346,self__.start_from,self__.__meta,self__.__extmap,null));
-} else {
-if(cljs.core.truth_(pred__33352.call(null,new cljs.core.Keyword(null,"start-from","start-from",1934364841),expr__33353))){
-return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,self__.color,self__.fill,self__.commands,G__33346,self__.__meta,self__.__extmap,null));
-} else {
-return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,self__.color,self__.fill,self__.commands,self__.start_from,self__.__meta,cljs.core.assoc.call(null,self__.__extmap,k__29474__auto__,G__33346),null));
-}
-}
-}
-}
-}
-}
-}
+return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,self__.color,self__.fill,self__.commands,self__.start_from,self__.__meta,cljs.core.not_empty.call(null,cljs.core.dissoc.call(null,self__.__extmap,k__28789__auto__)),null));
 }
 });
 
-clojure_turtle.core.Turtle.prototype.cljs$core$ISeqable$_seq$arity$1 = (function (this__29478__auto__){
+clojure_turtle.core.Turtle.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__28786__auto__,k__28787__auto__,G__32440){
 var self__ = this;
-var this__29478__auto____$1 = this;
+var this__28786__auto____$1 = this;
+var pred__32446 = cljs.core.keyword_identical_QMARK_;
+var expr__32447 = k__28787__auto__;
+if(cljs.core.truth_(pred__32446.call(null,new cljs.core.Keyword(null,"x","x",2099068185),expr__32447))){
+return (new clojure_turtle.core.Turtle(G__32440,self__.y,self__.angle,self__.pen,self__.color,self__.fill,self__.commands,self__.start_from,self__.__meta,self__.__extmap,null));
+} else {
+if(cljs.core.truth_(pred__32446.call(null,new cljs.core.Keyword(null,"y","y",-1757859776),expr__32447))){
+return (new clojure_turtle.core.Turtle(self__.x,G__32440,self__.angle,self__.pen,self__.color,self__.fill,self__.commands,self__.start_from,self__.__meta,self__.__extmap,null));
+} else {
+if(cljs.core.truth_(pred__32446.call(null,new cljs.core.Keyword(null,"angle","angle",1622094254),expr__32447))){
+return (new clojure_turtle.core.Turtle(self__.x,self__.y,G__32440,self__.pen,self__.color,self__.fill,self__.commands,self__.start_from,self__.__meta,self__.__extmap,null));
+} else {
+if(cljs.core.truth_(pred__32446.call(null,new cljs.core.Keyword(null,"pen","pen",2006675445),expr__32447))){
+return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,G__32440,self__.color,self__.fill,self__.commands,self__.start_from,self__.__meta,self__.__extmap,null));
+} else {
+if(cljs.core.truth_(pred__32446.call(null,new cljs.core.Keyword(null,"color","color",1011675173),expr__32447))){
+return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,G__32440,self__.fill,self__.commands,self__.start_from,self__.__meta,self__.__extmap,null));
+} else {
+if(cljs.core.truth_(pred__32446.call(null,new cljs.core.Keyword(null,"fill","fill",883462889),expr__32447))){
+return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,self__.color,G__32440,self__.commands,self__.start_from,self__.__meta,self__.__extmap,null));
+} else {
+if(cljs.core.truth_(pred__32446.call(null,new cljs.core.Keyword(null,"commands","commands",161008658),expr__32447))){
+return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,self__.color,self__.fill,G__32440,self__.start_from,self__.__meta,self__.__extmap,null));
+} else {
+if(cljs.core.truth_(pred__32446.call(null,new cljs.core.Keyword(null,"start-from","start-from",1934364841),expr__32447))){
+return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,self__.color,self__.fill,self__.commands,G__32440,self__.__meta,self__.__extmap,null));
+} else {
+return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,self__.color,self__.fill,self__.commands,self__.start_from,self__.__meta,cljs.core.assoc.call(null,self__.__extmap,k__28787__auto__,G__32440),null));
+}
+}
+}
+}
+}
+}
+}
+}
+});
+
+clojure_turtle.core.Turtle.prototype.cljs$core$ISeqable$_seq$arity$1 = (function (this__28791__auto__){
+var self__ = this;
+var this__28791__auto____$1 = this;
 return cljs.core.seq.call(null,cljs.core.concat.call(null,new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"x","x",2099068185),self__.x],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"y","y",-1757859776),self__.y],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"angle","angle",1622094254),self__.angle],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"pen","pen",2006675445),self__.pen],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"color","color",1011675173),self__.color],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"fill","fill",883462889),self__.fill],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"commands","commands",161008658),self__.commands],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"start-from","start-from",1934364841),self__.start_from],null))], null),self__.__extmap));
 });
 
-clojure_turtle.core.Turtle.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__29465__auto__,G__33346){
+clojure_turtle.core.Turtle.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__28778__auto__,G__32440){
 var self__ = this;
-var this__29465__auto____$1 = this;
-return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,self__.color,self__.fill,self__.commands,self__.start_from,G__33346,self__.__extmap,self__.__hash));
+var this__28778__auto____$1 = this;
+return (new clojure_turtle.core.Turtle(self__.x,self__.y,self__.angle,self__.pen,self__.color,self__.fill,self__.commands,self__.start_from,G__32440,self__.__extmap,self__.__hash));
 });
 
-clojure_turtle.core.Turtle.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__29471__auto__,entry__29472__auto__){
+clojure_turtle.core.Turtle.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__28784__auto__,entry__28785__auto__){
 var self__ = this;
-var this__29471__auto____$1 = this;
-if(cljs.core.vector_QMARK_.call(null,entry__29472__auto__)){
-return this__29471__auto____$1.cljs$core$IAssociative$_assoc$arity$3(null,cljs.core._nth.call(null,entry__29472__auto__,(0)),cljs.core._nth.call(null,entry__29472__auto__,(1)));
+var this__28784__auto____$1 = this;
+if(cljs.core.vector_QMARK_.call(null,entry__28785__auto__)){
+return this__28784__auto____$1.cljs$core$IAssociative$_assoc$arity$3(null,cljs.core._nth.call(null,entry__28785__auto__,(0)),cljs.core._nth.call(null,entry__28785__auto__,(1)));
 } else {
-return cljs.core.reduce.call(null,cljs.core._conj,this__29471__auto____$1,entry__29472__auto__);
+return cljs.core.reduce.call(null,cljs.core._conj,this__28784__auto____$1,entry__28785__auto__);
 }
 });
 
@@ -234,20 +234,20 @@ return new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMP
 
 clojure_turtle.core.Turtle.cljs$lang$type = true;
 
-clojure_turtle.core.Turtle.cljs$lang$ctorPrSeq = (function (this__29502__auto__){
+clojure_turtle.core.Turtle.cljs$lang$ctorPrSeq = (function (this__28815__auto__){
 return cljs.core._conj.call(null,cljs.core.List.EMPTY,"clojure-turtle.core/Turtle");
 });
 
-clojure_turtle.core.Turtle.cljs$lang$ctorPrWriter = (function (this__29502__auto__,writer__29503__auto__){
-return cljs.core._write.call(null,writer__29503__auto__,"clojure-turtle.core/Turtle");
+clojure_turtle.core.Turtle.cljs$lang$ctorPrWriter = (function (this__28815__auto__,writer__28816__auto__){
+return cljs.core._write.call(null,writer__28816__auto__,"clojure-turtle.core/Turtle");
 });
 
 clojure_turtle.core.__GT_Turtle = (function clojure_turtle$core$__GT_Turtle(x,y,angle,pen,color,fill,commands,start_from){
 return (new clojure_turtle.core.Turtle(x,y,angle,pen,color,fill,commands,start_from,null,null,null));
 });
 
-clojure_turtle.core.map__GT_Turtle = (function clojure_turtle$core$map__GT_Turtle(G__33350){
-return (new clojure_turtle.core.Turtle(new cljs.core.Keyword(null,"x","x",2099068185).cljs$core$IFn$_invoke$arity$1(G__33350),new cljs.core.Keyword(null,"y","y",-1757859776).cljs$core$IFn$_invoke$arity$1(G__33350),new cljs.core.Keyword(null,"angle","angle",1622094254).cljs$core$IFn$_invoke$arity$1(G__33350),new cljs.core.Keyword(null,"pen","pen",2006675445).cljs$core$IFn$_invoke$arity$1(G__33350),new cljs.core.Keyword(null,"color","color",1011675173).cljs$core$IFn$_invoke$arity$1(G__33350),new cljs.core.Keyword(null,"fill","fill",883462889).cljs$core$IFn$_invoke$arity$1(G__33350),new cljs.core.Keyword(null,"commands","commands",161008658).cljs$core$IFn$_invoke$arity$1(G__33350),new cljs.core.Keyword(null,"start-from","start-from",1934364841).cljs$core$IFn$_invoke$arity$1(G__33350),null,cljs.core.not_empty.call(null,cljs.core.dissoc.call(null,G__33350,new cljs.core.Keyword(null,"x","x",2099068185),new cljs.core.Keyword(null,"y","y",-1757859776),new cljs.core.Keyword(null,"angle","angle",1622094254),new cljs.core.Keyword(null,"pen","pen",2006675445),new cljs.core.Keyword(null,"color","color",1011675173),new cljs.core.Keyword(null,"fill","fill",883462889),new cljs.core.Keyword(null,"commands","commands",161008658),new cljs.core.Keyword(null,"start-from","start-from",1934364841))),null));
+clojure_turtle.core.map__GT_Turtle = (function clojure_turtle$core$map__GT_Turtle(G__32444){
+return (new clojure_turtle.core.Turtle(new cljs.core.Keyword(null,"x","x",2099068185).cljs$core$IFn$_invoke$arity$1(G__32444),new cljs.core.Keyword(null,"y","y",-1757859776).cljs$core$IFn$_invoke$arity$1(G__32444),new cljs.core.Keyword(null,"angle","angle",1622094254).cljs$core$IFn$_invoke$arity$1(G__32444),new cljs.core.Keyword(null,"pen","pen",2006675445).cljs$core$IFn$_invoke$arity$1(G__32444),new cljs.core.Keyword(null,"color","color",1011675173).cljs$core$IFn$_invoke$arity$1(G__32444),new cljs.core.Keyword(null,"fill","fill",883462889).cljs$core$IFn$_invoke$arity$1(G__32444),new cljs.core.Keyword(null,"commands","commands",161008658).cljs$core$IFn$_invoke$arity$1(G__32444),new cljs.core.Keyword(null,"start-from","start-from",1934364841).cljs$core$IFn$_invoke$arity$1(G__32444),null,cljs.core.not_empty.call(null,cljs.core.dissoc.call(null,G__32444,new cljs.core.Keyword(null,"x","x",2099068185),new cljs.core.Keyword(null,"y","y",-1757859776),new cljs.core.Keyword(null,"angle","angle",1622094254),new cljs.core.Keyword(null,"pen","pen",2006675445),new cljs.core.Keyword(null,"color","color",1011675173),new cljs.core.Keyword(null,"fill","fill",883462889),new cljs.core.Keyword(null,"commands","commands",161008658),new cljs.core.Keyword(null,"start-from","start-from",1934364841))),null));
 });
 
 /**
@@ -288,8 +288,8 @@ return turt_state;
  *   opacity, the alpha value will be 255.
  */
 clojure_turtle.core.make_opaque = (function clojure_turtle$core$make_opaque(color_vec){
-var rgb_vec = (function (){var G__33356 = cljs.core.count.call(null,color_vec);
-switch (G__33356) {
+var rgb_vec = (function (){var G__32450 = cljs.core.count.call(null,color_vec);
+switch (G__32450) {
 case (1):
 return cljs.core.repeat.call(null,(3),cljs.core.first.call(null,color_vec));
 
@@ -303,7 +303,7 @@ return cljs.core.take.call(null,(3),color_vec);
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__33356)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__32450)].join('')));
 
 }
 })();
@@ -315,8 +315,8 @@ return rgba_vec;
  *   RGB values are in the range 0 to 255, inclusive.
  */
 clojure_turtle.core.color = (function clojure_turtle$core$color(var_args){
-var G__33359 = arguments.length;
-switch (G__33359) {
+var G__32453 = arguments.length;
+switch (G__32453) {
 case 1:
 return clojure_turtle.core.color.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -348,8 +348,8 @@ clojure_turtle.core.color.cljs$lang$maxFixedArity = 2;
  * Rotate the turtle turt clockwise by ang degrees.
  */
 clojure_turtle.core.right = (function clojure_turtle$core$right(var_args){
-var G__33362 = arguments.length;
-switch (G__33362) {
+var G__32456 = arguments.length;
+switch (G__32456) {
 case 1:
 return clojure_turtle.core.right.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -369,11 +369,11 @@ return clojure_turtle.core.right.call(null,clojure_turtle.core.turtle,ang);
 });
 
 clojure_turtle.core.right.cljs$core$IFn$_invoke$arity$2 = (function (turt_state,ang){
-var add_angle = (function clojure_turtle$core$add_angle(p__33366){
-var map__33367 = p__33366;
-var map__33367__$1 = ((((!((map__33367 == null)))?((((map__33367.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33367.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__33367):map__33367);
-var t = map__33367__$1;
-var angle = cljs.core.get.call(null,map__33367__$1,new cljs.core.Keyword(null,"angle","angle",1622094254));
+var add_angle = (function clojure_turtle$core$add_angle(p__32460){
+var map__32461 = p__32460;
+var map__32461__$1 = ((((!((map__32461 == null)))?((((map__32461.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__32461.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__32461):map__32461);
+var t = map__32461__$1;
+var angle = cljs.core.get.call(null,map__32461__$1,new cljs.core.Keyword(null,"angle","angle",1622094254));
 var new_angle = cljs.core.mod.call(null,(angle - ang),(360));
 return cljs.core.update_in.call(null,cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"angle","angle",1622094254),new_angle),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"commands","commands",161008658)], null),cljs.core.conj,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"setheading","setheading",1500207184),new_angle], null));
 });
@@ -386,8 +386,8 @@ clojure_turtle.core.right.cljs$lang$maxFixedArity = 2;
  * Same as right, but turns the turtle counter-clockwise.
  */
 clojure_turtle.core.left = (function clojure_turtle$core$left(var_args){
-var G__33371 = arguments.length;
-switch (G__33371) {
+var G__32465 = arguments.length;
+switch (G__32465) {
 case 1:
 return clojure_turtle.core.left.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -419,8 +419,8 @@ clojure_turtle.core.atan = quil.core.atan;
  * Move the turtle turt forward in the direction that it is facing by length len.
  */
 clojure_turtle.core.forward = (function clojure_turtle$core$forward(var_args){
-var G__33374 = arguments.length;
-switch (G__33374) {
+var G__32468 = arguments.length;
+switch (G__32468) {
 case 1:
 return clojure_turtle.core.forward.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -457,8 +457,8 @@ clojure_turtle.core.forward.cljs$lang$maxFixedArity = 2;
  * Same as forward, but move the turtle backwards, which is opposite of the direction it is facing.
  */
 clojure_turtle.core.back = (function clojure_turtle$core$back(var_args){
-var G__33377 = arguments.length;
-switch (G__33377) {
+var G__32471 = arguments.length;
+switch (G__32471) {
 case 1:
 return clojure_turtle.core.back.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -487,8 +487,8 @@ clojure_turtle.core.back.cljs$lang$maxFixedArity = 2;
  * Instruct the turtle to pick its pen up. Subsequent movements will not draw to screen until the pen is put down again.
  */
 clojure_turtle.core.penup = (function clojure_turtle$core$penup(var_args){
-var G__33380 = arguments.length;
-switch (G__33380) {
+var G__32474 = arguments.length;
+switch (G__32474) {
 case 0:
 return clojure_turtle.core.penup.cljs$core$IFn$_invoke$arity$0();
 
@@ -520,8 +520,8 @@ clojure_turtle.core.penup.cljs$lang$maxFixedArity = 1;
  * Instruct the turtle to put its pen down. Subsequent movements will draw to screen.
  */
 clojure_turtle.core.pendown = (function clojure_turtle$core$pendown(var_args){
-var G__33383 = arguments.length;
-switch (G__33383) {
+var G__32477 = arguments.length;
+switch (G__32477) {
 case 0:
 return clojure_turtle.core.pendown.cljs$core$IFn$_invoke$arity$0();
 
@@ -553,8 +553,8 @@ clojure_turtle.core.pendown.cljs$lang$maxFixedArity = 1;
  * Make the turtle fill the area created by his subsequent moves, until end-fill is called.
  */
 clojure_turtle.core.start_fill = (function clojure_turtle$core$start_fill(var_args){
-var G__33386 = arguments.length;
-switch (G__33386) {
+var G__32480 = arguments.length;
+switch (G__32480) {
 case 0:
 return clojure_turtle.core.start_fill.cljs$core$IFn$_invoke$arity$0();
 
@@ -586,8 +586,8 @@ clojure_turtle.core.start_fill.cljs$lang$maxFixedArity = 1;
  * Stop filling the area of turtle moves. Must be called start-fill.
  */
 clojure_turtle.core.end_fill = (function clojure_turtle$core$end_fill(var_args){
-var G__33389 = arguments.length;
-switch (G__33389) {
+var G__32483 = arguments.length;
+switch (G__32483) {
 case 0:
 return clojure_turtle.core.end_fill.cljs$core$IFn$_invoke$arity$0();
 
@@ -636,8 +636,8 @@ break;
  * Clear the lines state, which effectively clears the drawing canvas.
  */
 clojure_turtle.core.clean = (function clojure_turtle$core$clean(var_args){
-var G__33393 = arguments.length;
-switch (G__33393) {
+var G__32487 = arguments.length;
+switch (G__32487) {
 case 0:
 return clojure_turtle.core.clean.cljs$core$IFn$_invoke$arity$0();
 
@@ -670,8 +670,8 @@ clojure_turtle.core.clean.cljs$lang$maxFixedArity = 1;
  * Set the position of turtle turt to x-coordinate x and y-coordinate y.
  */
 clojure_turtle.core.setxy = (function clojure_turtle$core$setxy(var_args){
-var G__33396 = arguments.length;
-switch (G__33396) {
+var G__32490 = arguments.length;
+switch (G__32490) {
 case 2:
 return clojure_turtle.core.setxy.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -707,8 +707,8 @@ clojure_turtle.core.setxy.cljs$lang$maxFixedArity = 3;
  *   90 is up, 180 is left, and 270 is down.
  */
 clojure_turtle.core.setheading = (function clojure_turtle$core$setheading(var_args){
-var G__33399 = arguments.length;
-switch (G__33399) {
+var G__32493 = arguments.length;
+switch (G__32493) {
 case 1:
 return clojure_turtle.core.setheading.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -740,8 +740,8 @@ clojure_turtle.core.setheading.cljs$lang$maxFixedArity = 2;
  * Set the turtle at coordinates (0,0), facing up (heading = 90 degrees)
  */
 clojure_turtle.core.home = (function clojure_turtle$core$home(var_args){
-var G__33402 = arguments.length;
-switch (G__33402) {
+var G__32496 = arguments.length;
+switch (G__32496) {
 case 0:
 return clojure_turtle.core.home.cljs$core$IFn$_invoke$arity$0();
 
@@ -792,8 +792,8 @@ return clojure_turtle.core.reset_rendering.call(null);
  * A helper function that draws the triangle that represents the turtle onto the screen.
  */
 clojure_turtle.core.get_turtle_sprite = (function clojure_turtle$core$get_turtle_sprite(var_args){
-var G__33405 = arguments.length;
-switch (G__33405) {
+var G__32499 = arguments.length;
+switch (G__32499) {
 case 0:
 return clojure_turtle.core.get_turtle_sprite.cljs$core$IFn$_invoke$arity$0();
 
@@ -846,47 +846,47 @@ var next_cmd = cljs.core.first.call(null,commands);
 var cmd_name = cljs.core.first.call(null,next_cmd);
 var cmd_vals = cljs.core.rest.call(null,next_cmd);
 var rest_cmds = cljs.core.rest.call(null,commands);
-var G__33407 = cmd_name;
-var G__33407__$1 = (((G__33407 instanceof cljs.core.Keyword))?G__33407.fqn:null);
-switch (G__33407__$1) {
+var G__32501 = cmd_name;
+var G__32501__$1 = (((G__32501 instanceof cljs.core.Keyword))?G__32501.fqn:null);
+switch (G__32501__$1) {
 case "color":
 var c = cljs.core.first.call(null,cmd_vals);
 cljs.core.apply.call(null,quil.core.stroke,c);
 
 cljs.core.apply.call(null,quil.core.fill,c);
 
-var G__33415 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"color","color",1011675173),c);
-var G__33416 = rest_cmds;
-t = G__33415;
-commands = G__33416;
+var G__32509 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"color","color",1011675173),c);
+var G__32510 = rest_cmds;
+t = G__32509;
+commands = G__32510;
 continue;
 
 break;
 case "setxy":
-var vec__33408 = cljs.core.first.call(null,cmd_vals);
-var x = cljs.core.nth.call(null,vec__33408,(0),null);
-var y = cljs.core.nth.call(null,vec__33408,(1),null);
-var G__33417 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"x","x",2099068185),x,new cljs.core.Keyword(null,"y","y",-1757859776),y);
-var G__33418 = rest_cmds;
-t = G__33417;
-commands = G__33418;
+var vec__32502 = cljs.core.first.call(null,cmd_vals);
+var x = cljs.core.nth.call(null,vec__32502,(0),null);
+var y = cljs.core.nth.call(null,vec__32502,(1),null);
+var G__32511 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"x","x",2099068185),x,new cljs.core.Keyword(null,"y","y",-1757859776),y);
+var G__32512 = rest_cmds;
+t = G__32511;
+commands = G__32512;
 continue;
 
 break;
 case "setheading":
-var G__33419 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"angle","angle",1622094254),cljs.core.first.call(null,cmd_vals));
-var G__33420 = rest_cmds;
-t = G__33419;
-commands = G__33420;
+var G__32513 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"angle","angle",1622094254),cljs.core.first.call(null,cmd_vals));
+var G__32514 = rest_cmds;
+t = G__32513;
+commands = G__32514;
 continue;
 
 break;
 case "translate":
 var x = new cljs.core.Keyword(null,"x","x",2099068185).cljs$core$IFn$_invoke$arity$1(t);
 var y = new cljs.core.Keyword(null,"y","y",-1757859776).cljs$core$IFn$_invoke$arity$1(t);
-var vec__33411 = cljs.core.first.call(null,cmd_vals);
-var dx = cljs.core.nth.call(null,vec__33411,(0),null);
-var dy = cljs.core.nth.call(null,vec__33411,(1),null);
+var vec__32505 = cljs.core.first.call(null,cmd_vals);
+var dx = cljs.core.nth.call(null,vec__32505,(0),null);
+var dy = cljs.core.nth.call(null,vec__32505,(1),null);
 var new_x = (x + dx);
 var new_y = (y + dy);
 if(cljs.core.truth_(new cljs.core.Keyword(null,"pen","pen",2006675445).cljs$core$IFn$_invoke$arity$1(t))){
@@ -901,18 +901,18 @@ quil.core.vertex.call(null,new_x,new_y);
 } else {
 }
 
-var G__33421 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"x","x",2099068185),new_x,new cljs.core.Keyword(null,"y","y",-1757859776),new_y);
-var G__33422 = rest_cmds;
-t = G__33421;
-commands = G__33422;
+var G__32515 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"x","x",2099068185),new_x,new cljs.core.Keyword(null,"y","y",-1757859776),new_y);
+var G__32516 = rest_cmds;
+t = G__32515;
+commands = G__32516;
 continue;
 
 break;
 case "pen":
-var G__33423 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"pen","pen",2006675445),cljs.core.first.call(null,cmd_vals));
-var G__33424 = rest_cmds;
-t = G__33423;
-commands = G__33424;
+var G__32517 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"pen","pen",2006675445),cljs.core.first.call(null,cmd_vals));
+var G__32518 = rest_cmds;
+t = G__32517;
+commands = G__32518;
 continue;
 
 break;
@@ -922,10 +922,10 @@ if(cljs.core.truth_(new cljs.core.Keyword(null,"fill","fill",883462889).cljs$cor
 quil.core.begin_shape.call(null);
 }
 
-var G__33425 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"fill","fill",883462889),true);
-var G__33426 = rest_cmds;
-t = G__33425;
-commands = G__33426;
+var G__32519 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"fill","fill",883462889),true);
+var G__32520 = rest_cmds;
+t = G__32519;
+commands = G__32520;
 continue;
 
 break;
@@ -935,10 +935,10 @@ quil.core.end_shape.call(null);
 } else {
 }
 
-var G__33427 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"fill","fill",883462889),false);
-var G__33428 = rest_cmds;
-t = G__33427;
-commands = G__33428;
+var G__32521 = cljs.core.assoc.call(null,t,new cljs.core.Keyword(null,"fill","fill",883462889),false);
+var G__32522 = rest_cmds;
+t = G__32521;
+commands = G__32522;
 continue;
 
 break;
@@ -970,8 +970,8 @@ cljs.core.apply.call(null,quil.core.fill,clojure_turtle.core.DEFAULT_COLOR);
 
 clojure_turtle.core.draw_turtle_commands.call(null,cljs.core.deref.call(null,turt_state));
 
-var sprite_33429 = clojure_turtle.core.get_turtle_sprite.call(null,cljs.core.deref.call(null,turt_state));
-clojure_turtle.core.draw_turtle_commands.call(null,cljs.core.deref.call(null,sprite_33429));
+var sprite_32523 = clojure_turtle.core.get_turtle_sprite.call(null,cljs.core.deref.call(null,turt_state));
+clojure_turtle.core.draw_turtle_commands.call(null,cljs.core.deref.call(null,sprite_32523));
 
 quil.core.pop_matrix.call(null);
 
@@ -983,7 +983,7 @@ return quil.core.pop_matrix.call(null);
 clojure_turtle.core.draw = (function clojure_turtle$core$draw(){
 return clojure_turtle.core.draw_turtle.call(null,clojure_turtle.core.turtle);
 });
-var ret__30035__auto___33430 = /**
+var ret__29348__auto___32524 = /**
  * Executes `then` clause iff generating ClojureScript code. Stolen from Prismatic code.
  *   Ref. http://goo.gl/DhhhSN, http://goo.gl/Bhdyna.
  */
@@ -996,7 +996,7 @@ return else$;
 });
 clojure_turtle.core.if_cljs.cljs$lang$macro = true;
 
-var ret__30035__auto___33446 = (function (){
+var ret__29348__auto___32540 = (function (){
 /**
  * Opens up a new window that shows the turtle rendering canvas.  In CLJS it will render
  *   to a new HTML5 canvas object. An optional config map can be provided, where the key
@@ -1004,65 +1004,65 @@ var ret__30035__auto___33446 = (function (){
  *   indicating the width and height of the window.
  */
 clojure_turtle.core.new_window = (function clojure_turtle$core$new_window(var_args){
-var args__30002__auto__ = [];
-var len__29995__auto___33447 = arguments.length;
-var i__29996__auto___33448 = (0);
+var args__29315__auto__ = [];
+var len__29308__auto___32541 = arguments.length;
+var i__29309__auto___32542 = (0);
 while(true){
-if((i__29996__auto___33448 < len__29995__auto___33447)){
-args__30002__auto__.push((arguments[i__29996__auto___33448]));
+if((i__29309__auto___32542 < len__29308__auto___32541)){
+args__29315__auto__.push((arguments[i__29309__auto___32542]));
 
-var G__33449 = (i__29996__auto___33448 + (1));
-i__29996__auto___33448 = G__33449;
+var G__32543 = (i__29309__auto___32542 + (1));
+i__29309__auto___32542 = G__32543;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__30003__auto__ = ((((2) < args__30002__auto__.length))?(new cljs.core.IndexedSeq(args__30002__auto__.slice((2)),(0),null)):null);
-return clojure_turtle.core.new_window.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),argseq__30003__auto__);
+var argseq__29316__auto__ = ((((2) < args__29315__auto__.length))?(new cljs.core.IndexedSeq(args__29315__auto__.slice((2)),(0),null)):null);
+return clojure_turtle.core.new_window.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),argseq__29316__auto__);
 });
 
-clojure_turtle.core.new_window.cljs$core$IFn$_invoke$arity$variadic = (function (_AMPERSAND_form,_AMPERSAND_env,p__33434){
-var vec__33435 = p__33434;
-var config = cljs.core.nth.call(null,vec__33435,(0),null);
-return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("clojure-turtle.core","if-cljs","clojure-turtle.core/if-cljs",1147190338,null)),(function (){var x__29688__auto__ = (function (){var default_config = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"size","size",1098693007),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(323),(200)], null)], null);
-var map__33440 = cljs.core.merge.call(null,default_config,config);
-var map__33440__$1 = ((((!((map__33440 == null)))?((((map__33440.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33440.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__33440):map__33440);
-var host = cljs.core.get.call(null,map__33440__$1,new cljs.core.Keyword(null,"host","host",-1558485167));
-var size = cljs.core.get.call(null,map__33440__$1,new cljs.core.Keyword(null,"size","size",1098693007));
-return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol(null,"do","do",1686842252,null)),(function (){var x__29688__auto__ = cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("quil.sketch","add-canvas","quil.sketch/add-canvas",-44468094,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,"turtle-canvas"))));
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29688__auto__);
-})(),(function (){var x__29688__auto__ = cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("quil.core","defsketch","quil.core/defsketch",137571269,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol(null,"example","example",-115247617,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"host","host",-1558485167)),cljs.core._conj.call(null,cljs.core.List.EMPTY,"turtle-canvas"),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"setup","setup",1987730512)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("clojure-turtle.core","setup","clojure-turtle.core/setup",-224051665,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"draw","draw",1358331674)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("clojure-turtle.core","draw","clojure-turtle.core/draw",1759977673,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"size","size",1098693007)),(function (){var x__29688__auto__ = size;
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29688__auto__);
+clojure_turtle.core.new_window.cljs$core$IFn$_invoke$arity$variadic = (function (_AMPERSAND_form,_AMPERSAND_env,p__32528){
+var vec__32529 = p__32528;
+var config = cljs.core.nth.call(null,vec__32529,(0),null);
+return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("clojure-turtle.core","if-cljs","clojure-turtle.core/if-cljs",1147190338,null)),(function (){var x__29001__auto__ = (function (){var default_config = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"size","size",1098693007),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(323),(200)], null)], null);
+var map__32534 = cljs.core.merge.call(null,default_config,config);
+var map__32534__$1 = ((((!((map__32534 == null)))?((((map__32534.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__32534.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__32534):map__32534);
+var host = cljs.core.get.call(null,map__32534__$1,new cljs.core.Keyword(null,"host","host",-1558485167));
+var size = cljs.core.get.call(null,map__32534__$1,new cljs.core.Keyword(null,"size","size",1098693007));
+return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol(null,"do","do",1686842252,null)),(function (){var x__29001__auto__ = cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("quil.sketch","add-canvas","quil.sketch/add-canvas",-44468094,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,"turtle-canvas"))));
+return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29001__auto__);
+})(),(function (){var x__29001__auto__ = cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("quil.core","defsketch","quil.core/defsketch",137571269,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol(null,"example","example",-115247617,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"host","host",-1558485167)),cljs.core._conj.call(null,cljs.core.List.EMPTY,"turtle-canvas"),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"setup","setup",1987730512)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("clojure-turtle.core","setup","clojure-turtle.core/setup",-224051665,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"draw","draw",1358331674)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("clojure-turtle.core","draw","clojure-turtle.core/draw",1759977673,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"size","size",1098693007)),(function (){var x__29001__auto__ = size;
+return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29001__auto__);
 })())));
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29688__auto__);
-})())));
-})();
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29688__auto__);
-})(),(function (){var x__29688__auto__ = (function (){var default_config = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"title","title",636505583),"Watch the turtle go!",new cljs.core.Keyword(null,"size","size",1098693007),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(323),(200)], null)], null);
-var map__33444 = cljs.core.merge.call(null,default_config,config);
-var map__33444__$1 = ((((!((map__33444 == null)))?((((map__33444.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33444.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__33444):map__33444);
-var title = cljs.core.get.call(null,map__33444__$1,new cljs.core.Keyword(null,"title","title",636505583));
-var size = cljs.core.get.call(null,map__33444__$1,new cljs.core.Keyword(null,"size","size",1098693007));
-return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("quil.core","defsketch","quil.core/defsketch",137571269,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol(null,"example","example",-115247617,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"title","title",636505583)),(function (){var x__29688__auto__ = title;
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29688__auto__);
-})(),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"setup","setup",1987730512)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("clojure-turtle.core","setup","clojure-turtle.core/setup",-224051665,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"draw","draw",1358331674)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("clojure-turtle.core","draw","clojure-turtle.core/draw",1759977673,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"size","size",1098693007)),(function (){var x__29688__auto__ = size;
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29688__auto__);
+return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29001__auto__);
 })())));
 })();
-return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29688__auto__);
+return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29001__auto__);
+})(),(function (){var x__29001__auto__ = (function (){var default_config = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"title","title",636505583),"Watch the turtle go!",new cljs.core.Keyword(null,"size","size",1098693007),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(323),(200)], null)], null);
+var map__32538 = cljs.core.merge.call(null,default_config,config);
+var map__32538__$1 = ((((!((map__32538 == null)))?((((map__32538.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__32538.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__32538):map__32538);
+var title = cljs.core.get.call(null,map__32538__$1,new cljs.core.Keyword(null,"title","title",636505583));
+var size = cljs.core.get.call(null,map__32538__$1,new cljs.core.Keyword(null,"size","size",1098693007));
+return cljs.core.sequence.call(null,cljs.core.seq.call(null,cljs.core.concat.call(null,cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("quil.core","defsketch","quil.core/defsketch",137571269,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol(null,"example","example",-115247617,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"title","title",636505583)),(function (){var x__29001__auto__ = title;
+return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29001__auto__);
+})(),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"setup","setup",1987730512)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("clojure-turtle.core","setup","clojure-turtle.core/setup",-224051665,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"draw","draw",1358331674)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Symbol("clojure-turtle.core","draw","clojure-turtle.core/draw",1759977673,null)),cljs.core._conj.call(null,cljs.core.List.EMPTY,new cljs.core.Keyword(null,"size","size",1098693007)),(function (){var x__29001__auto__ = size;
+return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29001__auto__);
+})())));
+})();
+return cljs.core._conj.call(null,cljs.core.List.EMPTY,x__29001__auto__);
 })())));
 });
 
 clojure_turtle.core.new_window.cljs$lang$maxFixedArity = (2);
 
-clojure_turtle.core.new_window.cljs$lang$applyTo = (function (seq33431){
-var G__33432 = cljs.core.first.call(null,seq33431);
-var seq33431__$1 = cljs.core.next.call(null,seq33431);
-var G__33433 = cljs.core.first.call(null,seq33431__$1);
-var seq33431__$2 = cljs.core.next.call(null,seq33431__$1);
-return clojure_turtle.core.new_window.cljs$core$IFn$_invoke$arity$variadic(G__33432,G__33433,seq33431__$2);
+clojure_turtle.core.new_window.cljs$lang$applyTo = (function (seq32525){
+var G__32526 = cljs.core.first.call(null,seq32525);
+var seq32525__$1 = cljs.core.next.call(null,seq32525);
+var G__32527 = cljs.core.first.call(null,seq32525__$1);
+var seq32525__$2 = cljs.core.next.call(null,seq32525__$1);
+return clojure_turtle.core.new_window.cljs$core$IFn$_invoke$arity$variadic(G__32526,G__32527,seq32525__$2);
 });
 
 return null;
@@ -1071,4 +1071,4 @@ return null;
 clojure_turtle.core.new_window.cljs$lang$macro = true;
 
 
-//# sourceMappingURL=core.js.map?rel=1506930996392
+//# sourceMappingURL=core.js.map?rel=1506931510502

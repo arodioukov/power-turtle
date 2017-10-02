@@ -9,8 +9,8 @@ goog.require('re_console.editor');
 goog.require('re_console.common');
 goog.require('re_console.utils');
 re_console.core.display_console_output_item = (function re_console$core$display_console_output_item(var_args){
-var G__39025 = arguments.length;
-switch (G__39025) {
+var G__38119 = arguments.length;
+switch (G__38119) {
 case 2:
 return re_console.core.display_console_output_item.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -53,8 +53,8 @@ return re_console.core.display_console_output_item.call(null,console_key,to_str_
 }
 });
 re_console.core.console_items = (function re_console$core$console_items(var_args){
-var G__39029 = arguments.length;
-switch (G__39029) {
+var G__38123 = arguments.length;
+switch (G__38123) {
 case 2:
 return re_console.core.console_items.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -74,8 +74,8 @@ return re_console.core.console_items.call(null,console_key,items,cljs.core.ident
 });
 
 re_console.core.console_items.cljs$core$IFn$_invoke$arity$3 = (function (console_key,items,to_str_fn){
-return cljs.core.into.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (p1__39027_SHARP_){
-return p1__39027_SHARP_.stopPropagation();
+return cljs.core.into.call(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (p1__38121_SHARP_){
+return p1__38121_SHARP_.stopPropagation();
 })], null)], null),cljs.core.map.call(null,cljs.core.partial.call(null,re_console.core.display_console_item,console_key,to_str_fn),items));
 });
 
@@ -106,4 +106,4 @@ return re_console.common.scroll_to_el_bottom_BANG_.call(null,reagent.core.dom_no
 ], null));
 });
 
-//# sourceMappingURL=core.js.map?rel=1506931008511
+//# sourceMappingURL=core.js.map?rel=1506931523334

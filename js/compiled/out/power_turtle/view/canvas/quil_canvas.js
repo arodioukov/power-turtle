@@ -13,11 +13,11 @@ var height = reagent.core.atom.call(null,(640));
 var destroy_sketch = ((function (sketch,width,height){
 return (function power_turtle$view$canvas$quil_canvas$quil_canvas_$_a_destroy_sketch(){
 if(cljs.core.truth_(cljs.core.deref.call(null,sketch))){
-var _STAR_applet_STAR_33641_33645 = quil.sketch._STAR_applet_STAR_;
+var _STAR_applet_STAR_32735_32739 = quil.sketch._STAR_applet_STAR_;
 quil.sketch._STAR_applet_STAR_ = cljs.core.deref.call(null,sketch);
 
 try{quil.core.exit.call(null);
-}finally {quil.sketch._STAR_applet_STAR_ = _STAR_applet_STAR_33641_33645;
+}finally {quil.sketch._STAR_applet_STAR_ = _STAR_applet_STAR_32735_32739;
 }
 return cljs.core.reset_BANG_.call(null,sketch,null);
 } else {
@@ -33,9 +33,9 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 return (function power_turtle$view$canvas$quil_canvas$quil_canvas_$_render_quil_canvas_$_quil_canvas_ref(this$){
 if(cljs.core.truth_(this$)){
 var elem = reagent.dom.dom_node.call(null,this$);
-var vec__33642 = power_turtle.resize_listener.dims.call(null,elem);
-var w = cljs.core.nth.call(null,vec__33642,(0),null);
-var h = cljs.core.nth.call(null,vec__33642,(1),null);
+var vec__32736 = power_turtle.resize_listener.dims.call(null,elem);
+var w = cljs.core.nth.call(null,vec__32736,(0),null);
+var h = cljs.core.nth.call(null,vec__32736,(1),null);
 if((cljs.core.not_EQ_.call(null,w,cljs.core.deref.call(null,width))) || (cljs.core.not_EQ_.call(null,h,cljs.core.deref.call(null,height)))){
 cljs.core.reset_BANG_.call(null,width,w);
 
@@ -54,4 +54,4 @@ return null;
 ,new cljs.core.Keyword(null,"component-will-unmount","component-will-unmount",-2058314698),destroy_sketch], null));
 });
 
-//# sourceMappingURL=quil_canvas.js.map?rel=1506930996669
+//# sourceMappingURL=quil_canvas.js.map?rel=1506931510793

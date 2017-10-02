@@ -214,4 +214,4 @@ throw (new Error("Assert failed: (<= 0 y 39)"));
 return power_turtle.view.canvas.raster_api.scrn_STAR_.call(null,cljs.core.deref.call(null,power_turtle.view.canvas.raster_api.raster),x,y);
 });
 
-//# sourceMappingURL=raster_api.js.map?rel=1506930996619
+//# sourceMappingURL=raster_api.js.map?rel=1506931510741

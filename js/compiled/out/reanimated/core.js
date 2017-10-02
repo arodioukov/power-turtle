@@ -30,8 +30,8 @@ return (a + ((t * (b - a)) / duration));
  *   and easing (a function that takes a b duration t).
  */
 reanimated.core.pop_when = (function reanimated$core$pop_when(var_args){
-var G__33462 = arguments.length;
-switch (G__33462) {
+var G__32556 = arguments.length;
+switch (G__32556) {
 case 2:
 return reanimated.core.pop_when.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -59,18 +59,18 @@ cljs.core.reset_BANG_.call(null,anim,new cljs.core.PersistentArrayMap(null, 3, [
 } else {
 }
 
-var map__33463 = options__$1;
-var map__33463__$1 = ((((!((map__33463 == null)))?((((map__33463.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33463.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__33463):map__33463);
-var duration = cljs.core.get.call(null,map__33463__$1,new cljs.core.Keyword(null,"duration","duration",1444101068),(200));
-var easing = cljs.core.get.call(null,map__33463__$1,new cljs.core.Keyword(null,"easing","easing",735372043),reanimated.core.interpolate);
+var map__32557 = options__$1;
+var map__32557__$1 = ((((!((map__32557 == null)))?((((map__32557.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__32557.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__32557):map__32557);
+var duration = cljs.core.get.call(null,map__32557__$1,new cljs.core.Keyword(null,"duration","duration",1444101068),(200));
+var easing = cljs.core.get.call(null,map__32557__$1,new cljs.core.Keyword(null,"easing","easing",735372043),reanimated.core.interpolate);
 var t = (reanimated.core.now.call(null) - new cljs.core.Keyword(null,"start","start",-355208981).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,anim)));
 var scale = easing.call(null,(0),(1),duration,t);
 var scale__$1 = (cljs.core.truth_(condition__$1)?scale:((1) - scale));
 if((t < duration)){
-reagent.core.next_tick.call(null,((function (map__33463,map__33463__$1,duration,easing,t,scale,scale__$1,anim){
+reagent.core.next_tick.call(null,((function (map__32557,map__32557__$1,duration,easing,t,scale,scale__$1,anim){
 return (function (){
 return cljs.core.swap_BANG_.call(null,anim,cljs.core.update,new cljs.core.Keyword(null,"frame","frame",-1711082588),cljs.core.inc);
-});})(map__33463,map__33463__$1,duration,easing,t,scale,scale__$1,anim))
+});})(map__32557,map__32557__$1,duration,easing,t,scale,scale__$1,anim))
 );
 
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"transform","transform",1381301764),["scale(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(scale__$1),")"].join(''),new cljs.core.Keyword(null,"opacity","opacity",397153780),scale__$1], null)], null),then__$1], null);
@@ -119,8 +119,8 @@ return e;
  *   and easing (a function of a b duration t).
  */
 reanimated.core.interpolate_if = (function reanimated$core$interpolate_if(var_args){
-var G__33467 = arguments.length;
-switch (G__33467) {
+var G__32561 = arguments.length;
+switch (G__32561) {
 case 3:
 return reanimated.core.interpolate_if.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -141,11 +141,11 @@ return reanimated.core.interpolate_if.call(null,condition,a,b,cljs.core.Persiste
 
 reanimated.core.interpolate_if.cljs$core$IFn$_invoke$arity$4 = (function (condition,a,b,options){
 var anim = reagent.core.atom.call(null,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"from","from",1815293044),a], null));
-var map__33468 = options;
-var map__33468__$1 = ((((!((map__33468 == null)))?((((map__33468.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33468.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__33468):map__33468);
-var duration = cljs.core.get.call(null,map__33468__$1,new cljs.core.Keyword(null,"duration","duration",1444101068),(200));
-var easing = cljs.core.get.call(null,map__33468__$1,new cljs.core.Keyword(null,"easing","easing",735372043),reanimated.core.interpolate);
-return reagent.ratom.make_reaction.call(null,((function (anim,map__33468,map__33468__$1,duration,easing){
+var map__32562 = options;
+var map__32562__$1 = ((((!((map__32562 == null)))?((((map__32562.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__32562.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__32562):map__32562);
+var duration = cljs.core.get.call(null,map__32562__$1,new cljs.core.Keyword(null,"duration","duration",1444101068),(200));
+var easing = cljs.core.get.call(null,map__32562__$1,new cljs.core.Keyword(null,"easing","easing",735372043),reanimated.core.interpolate);
+return reagent.ratom.make_reaction.call(null,((function (anim,map__32562,map__32562__$1,duration,easing){
 return (function (){
 if(cljs.core.not_EQ_.call(null,cljs.core.deref.call(null,condition),new cljs.core.Keyword(null,"condition","condition",1668437652).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,anim)))){
 cljs.core.reset_BANG_.call(null,anim,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"start","start",-355208981),reanimated.core.now.call(null),new cljs.core.Keyword(null,"condition","condition",1668437652),cljs.core.deref.call(null,condition),new cljs.core.Keyword(null,"from","from",1815293044),a,new cljs.core.Keyword(null,"frame","frame",-1711082588),(0)], null));
@@ -156,10 +156,10 @@ var t = (reanimated.core.now.call(null) - new cljs.core.Keyword(null,"start","st
 var scale = easing.call(null,(0),(1),duration,t);
 var scale__$1 = (cljs.core.truth_(cljs.core.deref.call(null,condition))?scale:((1) - scale));
 if((t < duration)){
-reagent.core.next_tick.call(null,((function (t,scale,scale__$1,anim,map__33468,map__33468__$1,duration,easing){
+reagent.core.next_tick.call(null,((function (t,scale,scale__$1,anim,map__32562,map__32562__$1,duration,easing){
 return (function (){
 return cljs.core.swap_BANG_.call(null,anim,cljs.core.update,new cljs.core.Keyword(null,"frame","frame",-1711082588),cljs.core.inc);
-});})(t,scale,scale__$1,anim,map__33468,map__33468__$1,duration,easing))
+});})(t,scale,scale__$1,anim,map__32562,map__32562__$1,duration,easing))
 );
 
 return ((a * ((1) - scale__$1)) + (b * scale__$1));
@@ -170,7 +170,7 @@ return b;
 return a;
 }
 }
-});})(anim,map__33468,map__33468__$1,duration,easing))
+});})(anim,map__32562,map__32562__$1,duration,easing))
 );
 });
 
@@ -183,8 +183,8 @@ reanimated.core.interpolate_if.cljs$lang$maxFixedArity = 4;
  *   and easing (a function of a b duration t).
  */
 reanimated.core.interpolate_to = (function reanimated$core$interpolate_to(var_args){
-var G__33472 = arguments.length;
-switch (G__33472) {
+var G__32566 = arguments.length;
+switch (G__32566) {
 case 1:
 return reanimated.core.interpolate_to.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -205,11 +205,11 @@ return reanimated.core.interpolate_to.call(null,x,cljs.core.PersistentArrayMap.E
 
 reanimated.core.interpolate_to.cljs$core$IFn$_invoke$arity$2 = (function (x,options){
 var anim = reagent.core.atom.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"from","from",1815293044),cljs.core.deref.call(null,x),new cljs.core.Keyword(null,"at","at",1476951349),cljs.core.deref.call(null,x),new cljs.core.Keyword(null,"to","to",192099007),cljs.core.deref.call(null,x),new cljs.core.Keyword(null,"start","start",-355208981),reanimated.core.now.call(null)], null));
-var map__33473 = options;
-var map__33473__$1 = ((((!((map__33473 == null)))?((((map__33473.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33473.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__33473):map__33473);
-var duration = cljs.core.get.call(null,map__33473__$1,new cljs.core.Keyword(null,"duration","duration",1444101068),(200));
-var easing = cljs.core.get.call(null,map__33473__$1,new cljs.core.Keyword(null,"easing","easing",735372043),reanimated.core.interpolate);
-return reagent.ratom.make_reaction.call(null,((function (anim,map__33473,map__33473__$1,duration,easing){
+var map__32567 = options;
+var map__32567__$1 = ((((!((map__32567 == null)))?((((map__32567.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__32567.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__32567):map__32567);
+var duration = cljs.core.get.call(null,map__32567__$1,new cljs.core.Keyword(null,"duration","duration",1444101068),(200));
+var easing = cljs.core.get.call(null,map__32567__$1,new cljs.core.Keyword(null,"easing","easing",735372043),reanimated.core.interpolate);
+return reagent.ratom.make_reaction.call(null,((function (anim,map__32567,map__32567__$1,duration,easing){
 return (function (){
 if(cljs.core.not_EQ_.call(null,new cljs.core.Keyword(null,"to","to",192099007).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,anim)),cljs.core.deref.call(null,x))){
 cljs.core.swap_BANG_.call(null,anim,cljs.core.assoc,new cljs.core.Keyword(null,"start","start",-355208981),reanimated.core.now.call(null),new cljs.core.Keyword(null,"to","to",192099007),cljs.core.deref.call(null,x),new cljs.core.Keyword(null,"from","from",1815293044),new cljs.core.Keyword(null,"at","at",1476951349).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,anim)),new cljs.core.Keyword(null,"frame","frame",-1711082588),(0));
@@ -222,17 +222,17 @@ var a = new cljs.core.Keyword(null,"from","from",1815293044).cljs$core$IFn$_invo
 var b = cljs.core.deref.call(null,x);
 if((t < duration)){
 var at = ((a * ((1) - scale)) + (b * scale));
-reagent.core.next_tick.call(null,((function (at,t,scale,a,b,anim,map__33473,map__33473__$1,duration,easing){
+reagent.core.next_tick.call(null,((function (at,t,scale,a,b,anim,map__32567,map__32567__$1,duration,easing){
 return (function (){
 return cljs.core.swap_BANG_.call(null,anim,cljs.core.assoc,new cljs.core.Keyword(null,"at","at",1476951349),at,new cljs.core.Keyword(null,"frame","frame",-1711082588),(new cljs.core.Keyword(null,"frame","frame",-1711082588).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,anim)) + (1)));
-});})(at,t,scale,a,b,anim,map__33473,map__33473__$1,duration,easing))
+});})(at,t,scale,a,b,anim,map__32567,map__32567__$1,duration,easing))
 );
 
 return at;
 } else {
 return b;
 }
-});})(anim,map__33473,map__33473__$1,duration,easing))
+});})(anim,map__32567,map__32567__$1,duration,easing))
 );
 });
 
@@ -245,8 +245,8 @@ reanimated.core.interpolate_to.cljs$lang$maxFixedArity = 2;
  *   and easing (a function of a b duration t).
  */
 reanimated.core.interpolate_arg = (function reanimated$core$interpolate_arg(var_args){
-var G__33477 = arguments.length;
-switch (G__33477) {
+var G__32571 = arguments.length;
+switch (G__32571) {
 case 2:
 return reanimated.core.interpolate_arg.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -274,16 +274,16 @@ cljs.core.swap_BANG_.call(null,anim,cljs.core.assoc,new cljs.core.Keyword(null,"
 } else {
 }
 
-var map__33478 = options__$1;
-var map__33478__$1 = ((((!((map__33478 == null)))?((((map__33478.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33478.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__33478):map__33478);
-var easing = cljs.core.get.call(null,map__33478__$1,new cljs.core.Keyword(null,"easing","easing",735372043),reanimated.core.interpolate);
-var duration = cljs.core.get.call(null,map__33478__$1,new cljs.core.Keyword(null,"duration","duration",1444101068),(200));
+var map__32572 = options__$1;
+var map__32572__$1 = ((((!((map__32572 == null)))?((((map__32572.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__32572.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__32572):map__32572);
+var easing = cljs.core.get.call(null,map__32572__$1,new cljs.core.Keyword(null,"easing","easing",735372043),reanimated.core.interpolate);
+var duration = cljs.core.get.call(null,map__32572__$1,new cljs.core.Keyword(null,"duration","duration",1444101068),(200));
 var t = (reanimated.core.now.call(null) - new cljs.core.Keyword(null,"start","start",-355208981).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,anim)));
 if((t < duration)){
-reagent.core.next_tick.call(null,((function (map__33478,map__33478__$1,easing,duration,t,anim){
+reagent.core.next_tick.call(null,((function (map__32572,map__32572__$1,easing,duration,t,anim){
 return (function (){
 return cljs.core.swap_BANG_.call(null,anim,cljs.core.update,new cljs.core.Keyword(null,"frame","frame",-1711082588),cljs.core.inc);
-});})(map__33478,map__33478__$1,easing,duration,t,anim))
+});})(map__32572,map__32572__$1,easing,duration,t,anim))
 );
 
 var i = easing.call(null,new cljs.core.Keyword(null,"from","from",1815293044).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,anim)),x__$1,duration,t);
@@ -305,12 +305,12 @@ reanimated.core.damping = (1);
 /**
  * This is where the spring physics formula is applied.
  */
-reanimated.core.evaluate = (function reanimated$core$evaluate(x2,dt,x,v,a,p__33481){
-var map__33482 = p__33481;
-var map__33482__$1 = ((((!((map__33482 == null)))?((((map__33482.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33482.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__33482):map__33482);
-var mass = cljs.core.get.call(null,map__33482__$1,new cljs.core.Keyword(null,"mass","mass",-2138950046));
-var stiffness = cljs.core.get.call(null,map__33482__$1,new cljs.core.Keyword(null,"stiffness","stiffness",-795208962));
-var damping = cljs.core.get.call(null,map__33482__$1,new cljs.core.Keyword(null,"damping","damping",1054389681));
+reanimated.core.evaluate = (function reanimated$core$evaluate(x2,dt,x,v,a,p__32575){
+var map__32576 = p__32575;
+var map__32576__$1 = ((((!((map__32576 == null)))?((((map__32576.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__32576.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__32576):map__32576);
+var mass = cljs.core.get.call(null,map__32576__$1,new cljs.core.Keyword(null,"mass","mass",-2138950046));
+var stiffness = cljs.core.get.call(null,map__32576__$1,new cljs.core.Keyword(null,"stiffness","stiffness",-795208962));
+var damping = cljs.core.get.call(null,map__32576__$1,new cljs.core.Keyword(null,"damping","damping",1054389681));
 var x__$1 = (x + (v * dt));
 var v__$1 = (v + (a * dt));
 var f = ((stiffness * (x2 - x__$1)) - (damping * v__$1));
@@ -323,18 +323,18 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
  */
 reanimated.core.integrate_rk4 = (function reanimated$core$integrate_rk4(x2,dt,x,v,options){
 var dt2 = (dt * 0.5);
-var vec__33484 = reanimated.core.evaluate.call(null,x2,0.0,x,v,0.0,options);
-var av = cljs.core.nth.call(null,vec__33484,(0),null);
-var aa = cljs.core.nth.call(null,vec__33484,(1),null);
-var vec__33487 = reanimated.core.evaluate.call(null,x2,dt2,x,av,aa,options);
-var bv = cljs.core.nth.call(null,vec__33487,(0),null);
-var ba = cljs.core.nth.call(null,vec__33487,(1),null);
-var vec__33490 = reanimated.core.evaluate.call(null,x2,dt2,x,bv,ba,options);
-var cv = cljs.core.nth.call(null,vec__33490,(0),null);
-var ca = cljs.core.nth.call(null,vec__33490,(1),null);
-var vec__33493 = reanimated.core.evaluate.call(null,x2,dt,x,cv,ca,options);
-var dv = cljs.core.nth.call(null,vec__33493,(0),null);
-var da = cljs.core.nth.call(null,vec__33493,(1),null);
+var vec__32578 = reanimated.core.evaluate.call(null,x2,0.0,x,v,0.0,options);
+var av = cljs.core.nth.call(null,vec__32578,(0),null);
+var aa = cljs.core.nth.call(null,vec__32578,(1),null);
+var vec__32581 = reanimated.core.evaluate.call(null,x2,dt2,x,av,aa,options);
+var bv = cljs.core.nth.call(null,vec__32581,(0),null);
+var ba = cljs.core.nth.call(null,vec__32581,(1),null);
+var vec__32584 = reanimated.core.evaluate.call(null,x2,dt2,x,bv,ba,options);
+var cv = cljs.core.nth.call(null,vec__32584,(0),null);
+var ca = cljs.core.nth.call(null,vec__32584,(1),null);
+var vec__32587 = reanimated.core.evaluate.call(null,x2,dt,x,cv,ca,options);
+var dv = cljs.core.nth.call(null,vec__32587,(0),null);
+var da = cljs.core.nth.call(null,vec__32587,(1),null);
 var dx = (((av + (2.0 * (bv + cv))) + dv) / 6.0);
 var dv__$1 = (((aa + (2.0 * (ba + ca))) + da) / 6.0);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(x + (dx * dt)),(v + (dv__$1 * dt))], null);
@@ -353,8 +353,8 @@ return ((-0.1 < x)) && ((x < 0.1));
  *   mass, stiffness, damping of the spring.
  */
 reanimated.core.spring = (function reanimated$core$spring(var_args){
-var G__33497 = arguments.length;
-switch (G__33497) {
+var G__32591 = arguments.length;
+switch (G__32591) {
 case 1:
 return reanimated.core.spring.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -374,44 +374,44 @@ return reanimated.core.spring.call(null,x2,cljs.core.PersistentArrayMap.EMPTY);
 });
 
 reanimated.core.spring.cljs$core$IFn$_invoke$arity$2 = (function (x2,options){
-var map__33498 = options;
-var map__33498__$1 = ((((!((map__33498 == null)))?((((map__33498.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33498.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__33498):map__33498);
-var from = cljs.core.get.call(null,map__33498__$1,new cljs.core.Keyword(null,"from","from",1815293044),cljs.core.deref.call(null,x2));
-var velocity = cljs.core.get.call(null,map__33498__$1,new cljs.core.Keyword(null,"velocity","velocity",-581524355),(0));
+var map__32592 = options;
+var map__32592__$1 = ((((!((map__32592 == null)))?((((map__32592.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__32592.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__32592):map__32592);
+var from = cljs.core.get.call(null,map__32592__$1,new cljs.core.Keyword(null,"from","from",1815293044),cljs.core.deref.call(null,x2));
+var velocity = cljs.core.get.call(null,map__32592__$1,new cljs.core.Keyword(null,"velocity","velocity",-581524355),(0));
 var anim = reagent.core.atom.call(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"t","t",-1397832519),reanimated.core.now.call(null),new cljs.core.Keyword(null,"x","x",2099068185),from,new cljs.core.Keyword(null,"v","v",21465059),velocity], null));
-return reagent.ratom.make_reaction.call(null,((function (map__33498,map__33498__$1,from,velocity,anim){
+return reagent.ratom.make_reaction.call(null,((function (map__32592,map__32592__$1,from,velocity,anim){
 return (function (){
-var map__33500 = cljs.core.deref.call(null,anim);
-var map__33500__$1 = ((((!((map__33500 == null)))?((((map__33500.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__33500.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__33500):map__33500);
-var x = cljs.core.get.call(null,map__33500__$1,new cljs.core.Keyword(null,"x","x",2099068185));
-var v = cljs.core.get.call(null,map__33500__$1,new cljs.core.Keyword(null,"v","v",21465059));
-var t = cljs.core.get.call(null,map__33500__$1,new cljs.core.Keyword(null,"t","t",-1397832519));
+var map__32594 = cljs.core.deref.call(null,anim);
+var map__32594__$1 = ((((!((map__32594 == null)))?((((map__32594.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__32594.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__32594):map__32594);
+var x = cljs.core.get.call(null,map__32594__$1,new cljs.core.Keyword(null,"x","x",2099068185));
+var v = cljs.core.get.call(null,map__32594__$1,new cljs.core.Keyword(null,"v","v",21465059));
+var t = cljs.core.get.call(null,map__32594__$1,new cljs.core.Keyword(null,"t","t",-1397832519));
 var t2 = reanimated.core.now.call(null);
-var dt = (function (){var x__29183__auto__ = (1);
-var y__29184__auto__ = ((t2 - t) / 10.0);
-return ((x__29183__auto__ < y__29184__auto__) ? x__29183__auto__ : y__29184__auto__);
+var dt = (function (){var x__28496__auto__ = (1);
+var y__28497__auto__ = ((t2 - t) / 10.0);
+return ((x__28496__auto__ < y__28497__auto__) ? x__28496__auto__ : y__28497__auto__);
 })();
-if(cljs.core.truth_((function (){var and__28814__auto__ = reanimated.core.small.call(null,(x - cljs.core.deref.call(null,x2)));
-if(cljs.core.truth_(and__28814__auto__)){
+if(cljs.core.truth_((function (){var and__28127__auto__ = reanimated.core.small.call(null,(x - cljs.core.deref.call(null,x2)));
+if(cljs.core.truth_(and__28127__auto__)){
 return reanimated.core.small.call(null,v);
 } else {
-return and__28814__auto__;
+return and__28127__auto__;
 }
 })())){
 return cljs.core.deref.call(null,x2);
 } else {
-var vec__33502 = reanimated.core.integrate_rk4.call(null,cljs.core.deref.call(null,x2),dt,x,v,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"mass","mass",-2138950046),reanimated.core.mass,new cljs.core.Keyword(null,"stiffness","stiffness",-795208962),reanimated.core.stiffness,new cljs.core.Keyword(null,"damping","damping",1054389681),reanimated.core.damping], null));
-var x__$1 = cljs.core.nth.call(null,vec__33502,(0),null);
-var v__$1 = cljs.core.nth.call(null,vec__33502,(1),null);
-reagent.core.next_tick.call(null,((function (vec__33502,x__$1,v__$1,map__33500,map__33500__$1,x,v,t,t2,dt,map__33498,map__33498__$1,from,velocity,anim){
+var vec__32596 = reanimated.core.integrate_rk4.call(null,cljs.core.deref.call(null,x2),dt,x,v,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"mass","mass",-2138950046),reanimated.core.mass,new cljs.core.Keyword(null,"stiffness","stiffness",-795208962),reanimated.core.stiffness,new cljs.core.Keyword(null,"damping","damping",1054389681),reanimated.core.damping], null));
+var x__$1 = cljs.core.nth.call(null,vec__32596,(0),null);
+var v__$1 = cljs.core.nth.call(null,vec__32596,(1),null);
+reagent.core.next_tick.call(null,((function (vec__32596,x__$1,v__$1,map__32594,map__32594__$1,x,v,t,t2,dt,map__32592,map__32592__$1,from,velocity,anim){
 return (function (){
 return cljs.core.reset_BANG_.call(null,anim,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"t","t",-1397832519),t2,new cljs.core.Keyword(null,"x","x",2099068185),x__$1,new cljs.core.Keyword(null,"v","v",21465059),v__$1], null));
-});})(vec__33502,x__$1,v__$1,map__33500,map__33500__$1,x,v,t,t2,dt,map__33498,map__33498__$1,from,velocity,anim))
+});})(vec__32596,x__$1,v__$1,map__32594,map__32594__$1,x,v,t,t2,dt,map__32592,map__32592__$1,from,velocity,anim))
 );
 
 return x__$1;
 }
-});})(map__33498,map__33498__$1,from,velocity,anim))
+});})(map__32592,map__32592__$1,from,velocity,anim))
 );
 });
 
@@ -486,23 +486,23 @@ return null;
  *   element is reset to vectors for rendering. 
  */
 reanimated.core.and_then = (function reanimated$core$and_then(var_args){
-var args__30002__auto__ = [];
-var len__29995__auto___33510 = arguments.length;
-var i__29996__auto___33511 = (0);
+var args__29315__auto__ = [];
+var len__29308__auto___32604 = arguments.length;
+var i__29309__auto___32605 = (0);
 while(true){
-if((i__29996__auto___33511 < len__29995__auto___33510)){
-args__30002__auto__.push((arguments[i__29996__auto___33511]));
+if((i__29309__auto___32605 < len__29308__auto___32604)){
+args__29315__auto__.push((arguments[i__29309__auto___32605]));
 
-var G__33512 = (i__29996__auto___33511 + (1));
-i__29996__auto___33511 = G__33512;
+var G__32606 = (i__29309__auto___32605 + (1));
+i__29309__auto___32605 = G__32606;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__30003__auto__ = ((((3) < args__30002__auto__.length))?(new cljs.core.IndexedSeq(args__30002__auto__.slice((3)),(0),null)):null);
-return reanimated.core.and_then.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),argseq__30003__auto__);
+var argseq__29316__auto__ = ((((3) < args__29315__auto__.length))?(new cljs.core.IndexedSeq(args__29315__auto__.slice((3)),(0),null)):null);
+return reanimated.core.and_then.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),argseq__29316__auto__);
 });
 
 reanimated.core.and_then.cljs$core$IFn$_invoke$arity$variadic = (function (id,element,x,more){
@@ -542,14 +542,14 @@ return cljs.core.apply.call(null,reanimated.core.and_then,id,element,new cljs.co
 
 reanimated.core.and_then.cljs$lang$maxFixedArity = (3);
 
-reanimated.core.and_then.cljs$lang$applyTo = (function (seq33506){
-var G__33507 = cljs.core.first.call(null,seq33506);
-var seq33506__$1 = cljs.core.next.call(null,seq33506);
-var G__33508 = cljs.core.first.call(null,seq33506__$1);
-var seq33506__$2 = cljs.core.next.call(null,seq33506__$1);
-var G__33509 = cljs.core.first.call(null,seq33506__$2);
-var seq33506__$3 = cljs.core.next.call(null,seq33506__$2);
-return reanimated.core.and_then.cljs$core$IFn$_invoke$arity$variadic(G__33507,G__33508,G__33509,seq33506__$3);
+reanimated.core.and_then.cljs$lang$applyTo = (function (seq32600){
+var G__32601 = cljs.core.first.call(null,seq32600);
+var seq32600__$1 = cljs.core.next.call(null,seq32600);
+var G__32602 = cljs.core.first.call(null,seq32600__$1);
+var seq32600__$2 = cljs.core.next.call(null,seq32600__$1);
+var G__32603 = cljs.core.first.call(null,seq32600__$2);
+var seq32600__$3 = cljs.core.next.call(null,seq32600__$2);
+return reanimated.core.and_then.cljs$core$IFn$_invoke$arity$variadic(G__32601,G__32602,G__32603,seq32600__$3);
 });
 
 /**
@@ -559,23 +559,23 @@ return reanimated.core.and_then.cljs$core$IFn$_invoke$arity$variadic(G__33507,G_
  *   vectors will be rendered as reagent components.
  */
 reanimated.core.timeline = (function reanimated$core$timeline(var_args){
-var args__30002__auto__ = [];
-var len__29995__auto___33515 = arguments.length;
-var i__29996__auto___33516 = (0);
+var args__29315__auto__ = [];
+var len__29308__auto___32609 = arguments.length;
+var i__29309__auto___32610 = (0);
 while(true){
-if((i__29996__auto___33516 < len__29995__auto___33515)){
-args__30002__auto__.push((arguments[i__29996__auto___33516]));
+if((i__29309__auto___32610 < len__29308__auto___32609)){
+args__29315__auto__.push((arguments[i__29309__auto___32610]));
 
-var G__33517 = (i__29996__auto___33516 + (1));
-i__29996__auto___33516 = G__33517;
+var G__32611 = (i__29309__auto___32610 + (1));
+i__29309__auto___32610 = G__32611;
 continue;
 } else {
 }
 break;
 }
 
-var argseq__30003__auto__ = ((((1) < args__30002__auto__.length))?(new cljs.core.IndexedSeq(args__30002__auto__.slice((1)),(0),null)):null);
-return reanimated.core.timeline.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__30003__auto__);
+var argseq__29316__auto__ = ((((1) < args__29315__auto__.length))?(new cljs.core.IndexedSeq(args__29315__auto__.slice((1)),(0),null)):null);
+return reanimated.core.timeline.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__29316__auto__);
 });
 
 reanimated.core.timeline.cljs$core$IFn$_invoke$arity$variadic = (function (x,xs){
@@ -602,10 +602,10 @@ return cljs.core.deref.call(null,element);
 
 reanimated.core.timeline.cljs$lang$maxFixedArity = (1);
 
-reanimated.core.timeline.cljs$lang$applyTo = (function (seq33513){
-var G__33514 = cljs.core.first.call(null,seq33513);
-var seq33513__$1 = cljs.core.next.call(null,seq33513);
-return reanimated.core.timeline.cljs$core$IFn$_invoke$arity$variadic(G__33514,seq33513__$1);
+reanimated.core.timeline.cljs$lang$applyTo = (function (seq32607){
+var G__32608 = cljs.core.first.call(null,seq32607);
+var seq32607__$1 = cljs.core.next.call(null,seq32607);
+return reanimated.core.timeline.cljs$core$IFn$_invoke$arity$variadic(G__32608,seq32607__$1);
 });
 
 /**
@@ -645,4 +645,4 @@ cljs.core.reset_BANG_.call(null,reanimated.core.scroll_y,reanimated.core.get_scr
 return cljs.core.reset_BANG_.call(null,reanimated.core.scroll_x,reanimated.core.get_scroll_x.call(null));
 }));
 
-//# sourceMappingURL=core.js.map?rel=1506930996540
+//# sourceMappingURL=core.js.map?rel=1506931510659

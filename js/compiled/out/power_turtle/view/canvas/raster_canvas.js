@@ -13,70 +13,70 @@ power_turtle.view.canvas.raster_canvas.pixel_height = (4);
 power_turtle.view.canvas.raster_canvas.redraw = (function power_turtle$view$canvas$raster_canvas$redraw(){
 if(cljs.core.truth_(cljs.core.deref.call(null,power_turtle.view.canvas.raster_canvas.canvas))){
 var ctx = cljs.core.deref.call(null,power_turtle.view.canvas.raster_canvas.canvas).getContext("2d");
-var seq__33545 = cljs.core.seq.call(null,cljs.core.range.call(null,(40)));
-var chunk__33550 = null;
-var count__33551 = (0);
-var i__33552 = (0);
+var seq__32639 = cljs.core.seq.call(null,cljs.core.range.call(null,(40)));
+var chunk__32644 = null;
+var count__32645 = (0);
+var i__32646 = (0);
 while(true){
-if((i__33552 < count__33551)){
-var x = cljs.core._nth.call(null,chunk__33550,i__33552);
-var seq__33553_33569 = cljs.core.seq.call(null,cljs.core.range.call(null,(40)));
-var chunk__33554_33570 = null;
-var count__33555_33571 = (0);
-var i__33556_33572 = (0);
+if((i__32646 < count__32645)){
+var x = cljs.core._nth.call(null,chunk__32644,i__32646);
+var seq__32647_32663 = cljs.core.seq.call(null,cljs.core.range.call(null,(40)));
+var chunk__32648_32664 = null;
+var count__32649_32665 = (0);
+var i__32650_32666 = (0);
 while(true){
-if((i__33556_33572 < count__33555_33571)){
-var y_33573 = cljs.core._nth.call(null,chunk__33554_33570,i__33556_33572);
-var vec__33557_33574 = power_turtle.view.canvas.raster_api.color_map.call(null,cljs.core.get_in.call(null,cljs.core.deref.call(null,power_turtle.view.canvas.raster_api.raster),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,y_33573], null)));
-var r_33575 = cljs.core.nth.call(null,vec__33557_33574,(0),null);
-var g_33576 = cljs.core.nth.call(null,vec__33557_33574,(1),null);
-var b_33577 = cljs.core.nth.call(null,vec__33557_33574,(2),null);
-ctx.fillStyle = ["rgb(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(r_33575),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(g_33576),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(b_33577),")"].join('');
+if((i__32650_32666 < count__32649_32665)){
+var y_32667 = cljs.core._nth.call(null,chunk__32648_32664,i__32650_32666);
+var vec__32651_32668 = power_turtle.view.canvas.raster_api.color_map.call(null,cljs.core.get_in.call(null,cljs.core.deref.call(null,power_turtle.view.canvas.raster_api.raster),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,y_32667], null)));
+var r_32669 = cljs.core.nth.call(null,vec__32651_32668,(0),null);
+var g_32670 = cljs.core.nth.call(null,vec__32651_32668,(1),null);
+var b_32671 = cljs.core.nth.call(null,vec__32651_32668,(2),null);
+ctx.fillStyle = ["rgb(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(r_32669),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(g_32670),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(b_32671),")"].join('');
 
-ctx.fillRect((x * (7)),(y_33573 * (4)),(7),(4));
+ctx.fillRect((x * (7)),(y_32667 * (4)),(7),(4));
 
-var G__33578 = seq__33553_33569;
-var G__33579 = chunk__33554_33570;
-var G__33580 = count__33555_33571;
-var G__33581 = (i__33556_33572 + (1));
-seq__33553_33569 = G__33578;
-chunk__33554_33570 = G__33579;
-count__33555_33571 = G__33580;
-i__33556_33572 = G__33581;
+var G__32672 = seq__32647_32663;
+var G__32673 = chunk__32648_32664;
+var G__32674 = count__32649_32665;
+var G__32675 = (i__32650_32666 + (1));
+seq__32647_32663 = G__32672;
+chunk__32648_32664 = G__32673;
+count__32649_32665 = G__32674;
+i__32650_32666 = G__32675;
 continue;
 } else {
-var temp__4657__auto___33582 = cljs.core.seq.call(null,seq__33553_33569);
-if(temp__4657__auto___33582){
-var seq__33553_33583__$1 = temp__4657__auto___33582;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__33553_33583__$1)){
-var c__29665__auto___33584 = cljs.core.chunk_first.call(null,seq__33553_33583__$1);
-var G__33585 = cljs.core.chunk_rest.call(null,seq__33553_33583__$1);
-var G__33586 = c__29665__auto___33584;
-var G__33587 = cljs.core.count.call(null,c__29665__auto___33584);
-var G__33588 = (0);
-seq__33553_33569 = G__33585;
-chunk__33554_33570 = G__33586;
-count__33555_33571 = G__33587;
-i__33556_33572 = G__33588;
+var temp__4657__auto___32676 = cljs.core.seq.call(null,seq__32647_32663);
+if(temp__4657__auto___32676){
+var seq__32647_32677__$1 = temp__4657__auto___32676;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__32647_32677__$1)){
+var c__28978__auto___32678 = cljs.core.chunk_first.call(null,seq__32647_32677__$1);
+var G__32679 = cljs.core.chunk_rest.call(null,seq__32647_32677__$1);
+var G__32680 = c__28978__auto___32678;
+var G__32681 = cljs.core.count.call(null,c__28978__auto___32678);
+var G__32682 = (0);
+seq__32647_32663 = G__32679;
+chunk__32648_32664 = G__32680;
+count__32649_32665 = G__32681;
+i__32650_32666 = G__32682;
 continue;
 } else {
-var y_33589 = cljs.core.first.call(null,seq__33553_33583__$1);
-var vec__33560_33590 = power_turtle.view.canvas.raster_api.color_map.call(null,cljs.core.get_in.call(null,cljs.core.deref.call(null,power_turtle.view.canvas.raster_api.raster),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,y_33589], null)));
-var r_33591 = cljs.core.nth.call(null,vec__33560_33590,(0),null);
-var g_33592 = cljs.core.nth.call(null,vec__33560_33590,(1),null);
-var b_33593 = cljs.core.nth.call(null,vec__33560_33590,(2),null);
-ctx.fillStyle = ["rgb(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(r_33591),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(g_33592),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(b_33593),")"].join('');
+var y_32683 = cljs.core.first.call(null,seq__32647_32677__$1);
+var vec__32654_32684 = power_turtle.view.canvas.raster_api.color_map.call(null,cljs.core.get_in.call(null,cljs.core.deref.call(null,power_turtle.view.canvas.raster_api.raster),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,y_32683], null)));
+var r_32685 = cljs.core.nth.call(null,vec__32654_32684,(0),null);
+var g_32686 = cljs.core.nth.call(null,vec__32654_32684,(1),null);
+var b_32687 = cljs.core.nth.call(null,vec__32654_32684,(2),null);
+ctx.fillStyle = ["rgb(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(r_32685),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(g_32686),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(b_32687),")"].join('');
 
-ctx.fillRect((x * (7)),(y_33589 * (4)),(7),(4));
+ctx.fillRect((x * (7)),(y_32683 * (4)),(7),(4));
 
-var G__33594 = cljs.core.next.call(null,seq__33553_33583__$1);
-var G__33595 = null;
-var G__33596 = (0);
-var G__33597 = (0);
-seq__33553_33569 = G__33594;
-chunk__33554_33570 = G__33595;
-count__33555_33571 = G__33596;
-i__33556_33572 = G__33597;
+var G__32688 = cljs.core.next.call(null,seq__32647_32677__$1);
+var G__32689 = null;
+var G__32690 = (0);
+var G__32691 = (0);
+seq__32647_32663 = G__32688;
+chunk__32648_32664 = G__32689;
+count__32649_32665 = G__32690;
+i__32650_32666 = G__32691;
 continue;
 }
 } else {
@@ -85,89 +85,89 @@ continue;
 break;
 }
 
-var G__33598 = seq__33545;
-var G__33599 = chunk__33550;
-var G__33600 = count__33551;
-var G__33601 = (i__33552 + (1));
-seq__33545 = G__33598;
-chunk__33550 = G__33599;
-count__33551 = G__33600;
-i__33552 = G__33601;
+var G__32692 = seq__32639;
+var G__32693 = chunk__32644;
+var G__32694 = count__32645;
+var G__32695 = (i__32646 + (1));
+seq__32639 = G__32692;
+chunk__32644 = G__32693;
+count__32645 = G__32694;
+i__32646 = G__32695;
 continue;
 } else {
-var temp__4657__auto__ = cljs.core.seq.call(null,seq__33545);
+var temp__4657__auto__ = cljs.core.seq.call(null,seq__32639);
 if(temp__4657__auto__){
-var seq__33545__$1 = temp__4657__auto__;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__33545__$1)){
-var c__29665__auto__ = cljs.core.chunk_first.call(null,seq__33545__$1);
-var G__33602 = cljs.core.chunk_rest.call(null,seq__33545__$1);
-var G__33603 = c__29665__auto__;
-var G__33604 = cljs.core.count.call(null,c__29665__auto__);
-var G__33605 = (0);
-seq__33545 = G__33602;
-chunk__33550 = G__33603;
-count__33551 = G__33604;
-i__33552 = G__33605;
+var seq__32639__$1 = temp__4657__auto__;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__32639__$1)){
+var c__28978__auto__ = cljs.core.chunk_first.call(null,seq__32639__$1);
+var G__32696 = cljs.core.chunk_rest.call(null,seq__32639__$1);
+var G__32697 = c__28978__auto__;
+var G__32698 = cljs.core.count.call(null,c__28978__auto__);
+var G__32699 = (0);
+seq__32639 = G__32696;
+chunk__32644 = G__32697;
+count__32645 = G__32698;
+i__32646 = G__32699;
 continue;
 } else {
-var x = cljs.core.first.call(null,seq__33545__$1);
-var seq__33546_33606 = cljs.core.seq.call(null,cljs.core.range.call(null,(40)));
-var chunk__33547_33607 = null;
-var count__33548_33608 = (0);
-var i__33549_33609 = (0);
+var x = cljs.core.first.call(null,seq__32639__$1);
+var seq__32640_32700 = cljs.core.seq.call(null,cljs.core.range.call(null,(40)));
+var chunk__32641_32701 = null;
+var count__32642_32702 = (0);
+var i__32643_32703 = (0);
 while(true){
-if((i__33549_33609 < count__33548_33608)){
-var y_33610 = cljs.core._nth.call(null,chunk__33547_33607,i__33549_33609);
-var vec__33563_33611 = power_turtle.view.canvas.raster_api.color_map.call(null,cljs.core.get_in.call(null,cljs.core.deref.call(null,power_turtle.view.canvas.raster_api.raster),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,y_33610], null)));
-var r_33612 = cljs.core.nth.call(null,vec__33563_33611,(0),null);
-var g_33613 = cljs.core.nth.call(null,vec__33563_33611,(1),null);
-var b_33614 = cljs.core.nth.call(null,vec__33563_33611,(2),null);
-ctx.fillStyle = ["rgb(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(r_33612),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(g_33613),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(b_33614),")"].join('');
+if((i__32643_32703 < count__32642_32702)){
+var y_32704 = cljs.core._nth.call(null,chunk__32641_32701,i__32643_32703);
+var vec__32657_32705 = power_turtle.view.canvas.raster_api.color_map.call(null,cljs.core.get_in.call(null,cljs.core.deref.call(null,power_turtle.view.canvas.raster_api.raster),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,y_32704], null)));
+var r_32706 = cljs.core.nth.call(null,vec__32657_32705,(0),null);
+var g_32707 = cljs.core.nth.call(null,vec__32657_32705,(1),null);
+var b_32708 = cljs.core.nth.call(null,vec__32657_32705,(2),null);
+ctx.fillStyle = ["rgb(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(r_32706),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(g_32707),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(b_32708),")"].join('');
 
-ctx.fillRect((x * (7)),(y_33610 * (4)),(7),(4));
+ctx.fillRect((x * (7)),(y_32704 * (4)),(7),(4));
 
-var G__33615 = seq__33546_33606;
-var G__33616 = chunk__33547_33607;
-var G__33617 = count__33548_33608;
-var G__33618 = (i__33549_33609 + (1));
-seq__33546_33606 = G__33615;
-chunk__33547_33607 = G__33616;
-count__33548_33608 = G__33617;
-i__33549_33609 = G__33618;
+var G__32709 = seq__32640_32700;
+var G__32710 = chunk__32641_32701;
+var G__32711 = count__32642_32702;
+var G__32712 = (i__32643_32703 + (1));
+seq__32640_32700 = G__32709;
+chunk__32641_32701 = G__32710;
+count__32642_32702 = G__32711;
+i__32643_32703 = G__32712;
 continue;
 } else {
-var temp__4657__auto___33619__$1 = cljs.core.seq.call(null,seq__33546_33606);
-if(temp__4657__auto___33619__$1){
-var seq__33546_33620__$1 = temp__4657__auto___33619__$1;
-if(cljs.core.chunked_seq_QMARK_.call(null,seq__33546_33620__$1)){
-var c__29665__auto___33621 = cljs.core.chunk_first.call(null,seq__33546_33620__$1);
-var G__33622 = cljs.core.chunk_rest.call(null,seq__33546_33620__$1);
-var G__33623 = c__29665__auto___33621;
-var G__33624 = cljs.core.count.call(null,c__29665__auto___33621);
-var G__33625 = (0);
-seq__33546_33606 = G__33622;
-chunk__33547_33607 = G__33623;
-count__33548_33608 = G__33624;
-i__33549_33609 = G__33625;
+var temp__4657__auto___32713__$1 = cljs.core.seq.call(null,seq__32640_32700);
+if(temp__4657__auto___32713__$1){
+var seq__32640_32714__$1 = temp__4657__auto___32713__$1;
+if(cljs.core.chunked_seq_QMARK_.call(null,seq__32640_32714__$1)){
+var c__28978__auto___32715 = cljs.core.chunk_first.call(null,seq__32640_32714__$1);
+var G__32716 = cljs.core.chunk_rest.call(null,seq__32640_32714__$1);
+var G__32717 = c__28978__auto___32715;
+var G__32718 = cljs.core.count.call(null,c__28978__auto___32715);
+var G__32719 = (0);
+seq__32640_32700 = G__32716;
+chunk__32641_32701 = G__32717;
+count__32642_32702 = G__32718;
+i__32643_32703 = G__32719;
 continue;
 } else {
-var y_33626 = cljs.core.first.call(null,seq__33546_33620__$1);
-var vec__33566_33627 = power_turtle.view.canvas.raster_api.color_map.call(null,cljs.core.get_in.call(null,cljs.core.deref.call(null,power_turtle.view.canvas.raster_api.raster),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,y_33626], null)));
-var r_33628 = cljs.core.nth.call(null,vec__33566_33627,(0),null);
-var g_33629 = cljs.core.nth.call(null,vec__33566_33627,(1),null);
-var b_33630 = cljs.core.nth.call(null,vec__33566_33627,(2),null);
-ctx.fillStyle = ["rgb(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(r_33628),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(g_33629),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(b_33630),")"].join('');
+var y_32720 = cljs.core.first.call(null,seq__32640_32714__$1);
+var vec__32660_32721 = power_turtle.view.canvas.raster_api.color_map.call(null,cljs.core.get_in.call(null,cljs.core.deref.call(null,power_turtle.view.canvas.raster_api.raster),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [x,y_32720], null)));
+var r_32722 = cljs.core.nth.call(null,vec__32660_32721,(0),null);
+var g_32723 = cljs.core.nth.call(null,vec__32660_32721,(1),null);
+var b_32724 = cljs.core.nth.call(null,vec__32660_32721,(2),null);
+ctx.fillStyle = ["rgb(",cljs.core.str.cljs$core$IFn$_invoke$arity$1(r_32722),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(g_32723),",",cljs.core.str.cljs$core$IFn$_invoke$arity$1(b_32724),")"].join('');
 
-ctx.fillRect((x * (7)),(y_33626 * (4)),(7),(4));
+ctx.fillRect((x * (7)),(y_32720 * (4)),(7),(4));
 
-var G__33631 = cljs.core.next.call(null,seq__33546_33620__$1);
-var G__33632 = null;
-var G__33633 = (0);
-var G__33634 = (0);
-seq__33546_33606 = G__33631;
-chunk__33547_33607 = G__33632;
-count__33548_33608 = G__33633;
-i__33549_33609 = G__33634;
+var G__32725 = cljs.core.next.call(null,seq__32640_32714__$1);
+var G__32726 = null;
+var G__32727 = (0);
+var G__32728 = (0);
+seq__32640_32700 = G__32725;
+chunk__32641_32701 = G__32726;
+count__32642_32702 = G__32727;
+i__32643_32703 = G__32728;
 continue;
 }
 } else {
@@ -176,14 +176,14 @@ continue;
 break;
 }
 
-var G__33635 = cljs.core.next.call(null,seq__33545__$1);
-var G__33636 = null;
-var G__33637 = (0);
-var G__33638 = (0);
-seq__33545 = G__33635;
-chunk__33550 = G__33636;
-count__33551 = G__33637;
-i__33552 = G__33638;
+var G__32729 = cljs.core.next.call(null,seq__32639__$1);
+var G__32730 = null;
+var G__32731 = (0);
+var G__32732 = (0);
+seq__32639 = G__32729;
+chunk__32644 = G__32730;
+count__32645 = G__32731;
+i__32646 = G__32732;
 continue;
 }
 } else {
@@ -214,4 +214,4 @@ return cljs.core.reset_BANG_.call(null,power_turtle.view.canvas.raster_canvas.ca
 })], null));
 });
 
-//# sourceMappingURL=raster_canvas.js.map?rel=1506930996653
+//# sourceMappingURL=raster_canvas.js.map?rel=1506931510777

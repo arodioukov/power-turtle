@@ -147,13 +147,13 @@ return re_console.app.drop_first_queued_form.call(null,re_console.app.set_consol
 return db;
 }
 });
-re_console.app.on_eval_complete = (function re_console$app$on_eval_complete(db,k,p__38102){
-var map__38103 = p__38102;
-var map__38103__$1 = ((((!((map__38103 == null)))?((((map__38103.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38103.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__38103):map__38103);
-var prev_ns = cljs.core.get.call(null,map__38103__$1,new cljs.core.Keyword(null,"prev-ns","prev-ns",490483434));
-var source = cljs.core.get.call(null,map__38103__$1,new cljs.core.Keyword(null,"source","source",-433931539));
-var success_QMARK_ = cljs.core.get.call(null,map__38103__$1,new cljs.core.Keyword(null,"success?","success?",-122854052));
-var result = cljs.core.get.call(null,map__38103__$1,new cljs.core.Keyword(null,"result","result",1415092211));
+re_console.app.on_eval_complete = (function re_console$app$on_eval_complete(db,k,p__37196){
+var map__37197 = p__37196;
+var map__37197__$1 = ((((!((map__37197 == null)))?((((map__37197.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__37197.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__37197):map__37197);
+var prev_ns = cljs.core.get.call(null,map__37197__$1,new cljs.core.Keyword(null,"prev-ns","prev-ns",490483434));
+var source = cljs.core.get.call(null,map__37197__$1,new cljs.core.Keyword(null,"source","source",-433931539));
+var success_QMARK_ = cljs.core.get.call(null,map__37197__$1,new cljs.core.Keyword(null,"success?","success?",-122854052));
+var result = cljs.core.get.call(null,map__37197__$1,new cljs.core.Keyword(null,"result","result",1415092211));
 var db__$1 = ((cljs.core.seq.call(null,source))?re_console.app.add_console_history_item.call(null,re_console.app.set_console_history_position.call(null,re_console.app.set_console_text.call(null,db,k,source),k,(0)),k,""):db);
 return re_console.app.set_next_queued_form_if_any.call(null,re_console.app.add_console_result.call(null,re_console.app.add_console_input.call(null,db__$1,k,source,prev_ns),k,cljs.core.not.call(null,success_QMARK_),result),k);
 });
@@ -164,4 +164,4 @@ re_console.app.set_console_on_after_change = (function re_console$app$set_consol
 return cljs.core.assoc_in.call(null,db,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"consoles","consoles",682114105),cljs.core.name.call(null,k),new cljs.core.Keyword(null,"on-after-change","on-after-change",-1213707473)], null),on_after_change);
 });
 
-//# sourceMappingURL=app.js.map?rel=1506931007472
+//# sourceMappingURL=app.js.map?rel=1506931522175

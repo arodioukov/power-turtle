@@ -109,14 +109,14 @@ return cljs.core.update_in.call(null,db,path__$1,handler,v);
 var re_frame$middleware$path = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__38278__i = 0, G__38278__a = new Array(arguments.length -  0);
-while (G__38278__i < G__38278__a.length) {G__38278__a[G__38278__i] = arguments[G__38278__i + 0]; ++G__38278__i;}
-  args = new cljs.core.IndexedSeq(G__38278__a,0,null);
+var G__37372__i = 0, G__37372__a = new Array(arguments.length -  0);
+while (G__37372__i < G__37372__a.length) {G__37372__a[G__37372__i] = arguments[G__37372__i + 0]; ++G__37372__i;}
+  args = new cljs.core.IndexedSeq(G__37372__a,0,null);
 } 
 return re_frame$middleware$path__delegate.call(this,args);};
 re_frame$middleware$path.cljs$lang$maxFixedArity = 0;
-re_frame$middleware$path.cljs$lang$applyTo = (function (arglist__38279){
-var args = cljs.core.seq(arglist__38279);
+re_frame$middleware$path.cljs$lang$applyTo = (function (arglist__37373){
+var args = cljs.core.seq(arglist__37373);
 return re_frame$middleware$path__delegate(args);
 });
 re_frame$middleware$path.cljs$core$IFn$_invoke$arity$variadic = re_frame$middleware$path__delegate;
@@ -212,13 +212,13 @@ return (function re_frame$middleware$on_changes_$_on_changed_middleware(handler)
 return (function re_frame$middleware$on_changes_$_on_changed_middleware_$_on_changed_handler(db,v){
 var new_db = handler.call(null,db,v);
 var new_ins = cljs.core.map.call(null,((function (new_db){
-return (function (p1__38280_SHARP_){
-return cljs.core.get_in.call(null,new_db,p1__38280_SHARP_);
+return (function (p1__37374_SHARP_){
+return cljs.core.get_in.call(null,new_db,p1__37374_SHARP_);
 });})(new_db))
 ,in_paths);
 var old_ins = cljs.core.map.call(null,((function (new_db,new_ins){
-return (function (p1__38281_SHARP_){
-return cljs.core.get_in.call(null,db,p1__38281_SHARP_);
+return (function (p1__37375_SHARP_){
+return cljs.core.get_in.call(null,db,p1__37375_SHARP_);
 });})(new_db,new_ins))
 ,in_paths);
 var changed_ins_QMARK_ = cljs.core.some.call(null,cljs.core.false_QMARK_,cljs.core.map.call(null,cljs.core.identical_QMARK_,new_ins,old_ins));
@@ -233,17 +233,17 @@ return new_db;
 var re_frame$middleware$on_changes = function (f,out_path,var_args){
 var in_paths = null;
 if (arguments.length > 2) {
-var G__38282__i = 0, G__38282__a = new Array(arguments.length -  2);
-while (G__38282__i < G__38282__a.length) {G__38282__a[G__38282__i] = arguments[G__38282__i + 2]; ++G__38282__i;}
-  in_paths = new cljs.core.IndexedSeq(G__38282__a,0,null);
+var G__37376__i = 0, G__37376__a = new Array(arguments.length -  2);
+while (G__37376__i < G__37376__a.length) {G__37376__a[G__37376__i] = arguments[G__37376__i + 2]; ++G__37376__i;}
+  in_paths = new cljs.core.IndexedSeq(G__37376__a,0,null);
 } 
 return re_frame$middleware$on_changes__delegate.call(this,f,out_path,in_paths);};
 re_frame$middleware$on_changes.cljs$lang$maxFixedArity = 2;
-re_frame$middleware$on_changes.cljs$lang$applyTo = (function (arglist__38283){
-var f = cljs.core.first(arglist__38283);
-arglist__38283 = cljs.core.next(arglist__38283);
-var out_path = cljs.core.first(arglist__38283);
-var in_paths = cljs.core.rest(arglist__38283);
+re_frame$middleware$on_changes.cljs$lang$applyTo = (function (arglist__37377){
+var f = cljs.core.first(arglist__37377);
+arglist__37377 = cljs.core.next(arglist__37377);
+var out_path = cljs.core.first(arglist__37377);
+var in_paths = cljs.core.rest(arglist__37377);
 return re_frame$middleware$on_changes__delegate(f,out_path,in_paths);
 });
 re_frame$middleware$on_changes.cljs$core$IFn$_invoke$arity$variadic = re_frame$middleware$on_changes__delegate;
@@ -251,4 +251,4 @@ return re_frame$middleware$on_changes;
 })()
 ,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"re-frame-factory-name","re-frame-factory-name",-1205706462),"on-changes"], null));
 
-//# sourceMappingURL=middleware.js.map?rel=1506931007891
+//# sourceMappingURL=middleware.js.map?rel=1506931522636

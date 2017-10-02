@@ -20,11 +20,11 @@ return cljs.core._EQ_.call(null,"\\",parinfer.reader.prev_ch.call(null,stack));
  * Next character is inside a string.
  */
 parinfer.reader.in_str_QMARK_ = (function parinfer$reader$in_str_QMARK_(stack){
-var ch = parinfer.reader.prev_ch.call(null,(function (){var G__38805 = stack;
+var ch = parinfer.reader.prev_ch.call(null,(function (){var G__37899 = stack;
 if(cljs.core.truth_(parinfer.reader.escaping_QMARK_.call(null,stack))){
-return cljs.core.pop.call(null,G__38805);
+return cljs.core.pop.call(null,G__37899);
 } else {
-return G__38805;
+return G__37899;
 }
 })());
 return cljs.core._EQ_.call(null,"\"",ch);
@@ -52,16 +52,16 @@ if(typeof parinfer.reader.push_char_STAR_ !== 'undefined'){
 /**
  * Update the delimiter stack with the given character.
  */
-parinfer.reader.push_char_STAR_ = (function (){var method_table__29781__auto__ = cljs.core.atom.call(null,cljs.core.PersistentArrayMap.EMPTY);
-var prefer_table__29782__auto__ = cljs.core.atom.call(null,cljs.core.PersistentArrayMap.EMPTY);
-var method_cache__29783__auto__ = cljs.core.atom.call(null,cljs.core.PersistentArrayMap.EMPTY);
-var cached_hierarchy__29784__auto__ = cljs.core.atom.call(null,cljs.core.PersistentArrayMap.EMPTY);
-var hierarchy__29785__auto__ = cljs.core.get.call(null,cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),cljs.core.get_global_hierarchy.call(null));
-return (new cljs.core.MultiFn(cljs.core.symbol.call(null,"parinfer.reader","push-char*"),((function (method_table__29781__auto__,prefer_table__29782__auto__,method_cache__29783__auto__,cached_hierarchy__29784__auto__,hierarchy__29785__auto__){
-return (function (p__38806){
-var map__38807 = p__38806;
-var map__38807__$1 = ((((!((map__38807 == null)))?((((map__38807.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38807.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__38807):map__38807);
-var ch = cljs.core.get.call(null,map__38807__$1,new cljs.core.Keyword(null,"ch","ch",-554717905));
+parinfer.reader.push_char_STAR_ = (function (){var method_table__29094__auto__ = cljs.core.atom.call(null,cljs.core.PersistentArrayMap.EMPTY);
+var prefer_table__29095__auto__ = cljs.core.atom.call(null,cljs.core.PersistentArrayMap.EMPTY);
+var method_cache__29096__auto__ = cljs.core.atom.call(null,cljs.core.PersistentArrayMap.EMPTY);
+var cached_hierarchy__29097__auto__ = cljs.core.atom.call(null,cljs.core.PersistentArrayMap.EMPTY);
+var hierarchy__29098__auto__ = cljs.core.get.call(null,cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),cljs.core.get_global_hierarchy.call(null));
+return (new cljs.core.MultiFn(cljs.core.symbol.call(null,"parinfer.reader","push-char*"),((function (method_table__29094__auto__,prefer_table__29095__auto__,method_cache__29096__auto__,cached_hierarchy__29097__auto__,hierarchy__29098__auto__){
+return (function (p__37900){
+var map__37901 = p__37900;
+var map__37901__$1 = ((((!((map__37901 == null)))?((((map__37901.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__37901.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__37901):map__37901);
+var ch = cljs.core.get.call(null,map__37901__$1,new cljs.core.Keyword(null,"ch","ch",-554717905));
 if(cljs.core.truth_(parinfer.reader.opening_delim_QMARK_.call(null,ch))){
 return new cljs.core.Keyword(null,"open","open",-1763596448);
 } else {
@@ -72,14 +72,14 @@ return ch;
 
 }
 }
-});})(method_table__29781__auto__,prefer_table__29782__auto__,method_cache__29783__auto__,cached_hierarchy__29784__auto__,hierarchy__29785__auto__))
-,new cljs.core.Keyword(null,"default","default",-1987822328),hierarchy__29785__auto__,method_table__29781__auto__,prefer_table__29782__auto__,method_cache__29783__auto__,cached_hierarchy__29784__auto__));
+});})(method_table__29094__auto__,prefer_table__29095__auto__,method_cache__29096__auto__,cached_hierarchy__29097__auto__,hierarchy__29098__auto__))
+,new cljs.core.Keyword(null,"default","default",-1987822328),hierarchy__29098__auto__,method_table__29094__auto__,prefer_table__29095__auto__,method_cache__29096__auto__,cached_hierarchy__29097__auto__));
 })();
 }
-cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,"\t",(function (p__38809){
-var map__38810 = p__38809;
-var map__38810__$1 = ((((!((map__38810 == null)))?((((map__38810.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38810.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__38810):map__38810);
-var stack = cljs.core.get.call(null,map__38810__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
+cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,"\t",(function (p__37903){
+var map__37904 = p__37903;
+var map__37904__$1 = ((((!((map__37904 == null)))?((((map__37904.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__37904.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__37904):map__37904);
+var stack = cljs.core.get.call(null,map__37904__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
 if(cljs.core.not.call(null,parinfer.reader.in_str_QMARK_.call(null,stack))){
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"ch","ch",-554717905),"  "], null);
 } else {
@@ -87,11 +87,11 @@ return null;
 
 }
 }));
-cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,new cljs.core.Keyword(null,"open","open",-1763596448),(function (p__38812){
-var map__38813 = p__38812;
-var map__38813__$1 = ((((!((map__38813 == null)))?((((map__38813.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38813.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__38813):map__38813);
-var state = map__38813__$1;
-var stack = cljs.core.get.call(null,map__38813__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
+cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,new cljs.core.Keyword(null,"open","open",-1763596448),(function (p__37906){
+var map__37907 = p__37906;
+var map__37907__$1 = ((((!((map__37907 == null)))?((((map__37907.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__37907.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__37907):map__37907);
+var state = map__37907__$1;
+var stack = cljs.core.get.call(null,map__37907__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
 if(cljs.core.truth_(parinfer.reader.escaping_QMARK_.call(null,stack))){
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stack","stack",-793405930),cljs.core.pop.call(null,stack)], null);
 } else {
@@ -103,12 +103,12 @@ return null;
 }
 }
 }));
-cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,new cljs.core.Keyword(null,"close","close",1835149582),(function (p__38815){
-var map__38816 = p__38815;
-var map__38816__$1 = ((((!((map__38816 == null)))?((((map__38816.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38816.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__38816):map__38816);
-var stack = cljs.core.get.call(null,map__38816__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
-var backup = cljs.core.get.call(null,map__38816__$1,new cljs.core.Keyword(null,"backup","backup",26347393));
-var ch = cljs.core.get.call(null,map__38816__$1,new cljs.core.Keyword(null,"ch","ch",-554717905));
+cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,new cljs.core.Keyword(null,"close","close",1835149582),(function (p__37909){
+var map__37910 = p__37909;
+var map__37910__$1 = ((((!((map__37910 == null)))?((((map__37910.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__37910.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__37910):map__37910);
+var stack = cljs.core.get.call(null,map__37910__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
+var backup = cljs.core.get.call(null,map__37910__$1,new cljs.core.Keyword(null,"backup","backup",26347393));
+var ch = cljs.core.get.call(null,map__37910__$1,new cljs.core.Keyword(null,"ch","ch",-554717905));
 if(cljs.core.truth_(parinfer.reader.escaping_QMARK_.call(null,stack))){
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stack","stack",-793405930),cljs.core.pop.call(null,stack)], null);
 } else {
@@ -125,11 +125,11 @@ return null;
 }
 }
 }));
-cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,";",(function (p__38818){
-var map__38819 = p__38818;
-var map__38819__$1 = ((((!((map__38819 == null)))?((((map__38819.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38819.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__38819):map__38819);
-var state = map__38819__$1;
-var stack = cljs.core.get.call(null,map__38819__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
+cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,";",(function (p__37912){
+var map__37913 = p__37912;
+var map__37913__$1 = ((((!((map__37913 == null)))?((((map__37913.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__37913.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__37913):map__37913);
+var state = map__37913__$1;
+var stack = cljs.core.get.call(null,map__37913__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
 if(cljs.core.truth_(parinfer.reader.escaping_QMARK_.call(null,stack))){
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stack","stack",-793405930),cljs.core.pop.call(null,stack)], null);
 } else {
@@ -141,31 +141,31 @@ return null;
 }
 }
 }));
-cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,"\n",(function (p__38821){
-var map__38822 = p__38821;
-var map__38822__$1 = ((((!((map__38822 == null)))?((((map__38822.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38822.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__38822):map__38822);
-var stack = cljs.core.get.call(null,map__38822__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
-var stack__$1 = (function (){var G__38824 = stack;
+cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,"\n",(function (p__37915){
+var map__37916 = p__37915;
+var map__37916__$1 = ((((!((map__37916 == null)))?((((map__37916.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__37916.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__37916):map__37916);
+var stack = cljs.core.get.call(null,map__37916__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
+var stack__$1 = (function (){var G__37918 = stack;
 if(cljs.core.truth_(parinfer.reader.escaping_QMARK_.call(null,stack))){
-return cljs.core.pop.call(null,G__38824);
+return cljs.core.pop.call(null,G__37918);
 } else {
-return G__38824;
+return G__37918;
 }
 })();
-var stack__$2 = (function (){var G__38825 = stack__$1;
+var stack__$2 = (function (){var G__37919 = stack__$1;
 if(cljs.core.truth_(parinfer.reader.in_comment_QMARK_.call(null,stack__$1))){
-return cljs.core.pop.call(null,G__38825);
+return cljs.core.pop.call(null,G__37919);
 } else {
-return G__38825;
+return G__37919;
 }
 })();
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ch","ch",-554717905),"",new cljs.core.Keyword(null,"stack","stack",-793405930),stack__$2], null);
 }));
-cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,"\\",(function (p__38826){
-var map__38827 = p__38826;
-var map__38827__$1 = ((((!((map__38827 == null)))?((((map__38827.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38827.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__38827):map__38827);
-var state = map__38827__$1;
-var stack = cljs.core.get.call(null,map__38827__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
+cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,"\\",(function (p__37920){
+var map__37921 = p__37920;
+var map__37921__$1 = ((((!((map__37921 == null)))?((((map__37921.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__37921.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__37921):map__37921);
+var state = map__37921__$1;
+var stack = cljs.core.get.call(null,map__37921__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
 if(cljs.core.truth_(parinfer.reader.escaping_QMARK_.call(null,stack))){
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stack","stack",-793405930),cljs.core.pop.call(null,stack)], null);
 } else {
@@ -177,11 +177,11 @@ return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"st
 }
 }
 }));
-cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,"\"",(function (p__38829){
-var map__38830 = p__38829;
-var map__38830__$1 = ((((!((map__38830 == null)))?((((map__38830.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38830.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__38830):map__38830);
-var state = map__38830__$1;
-var stack = cljs.core.get.call(null,map__38830__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
+cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,"\"",(function (p__37923){
+var map__37924 = p__37923;
+var map__37924__$1 = ((((!((map__37924 == null)))?((((map__37924.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__37924.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__37924):map__37924);
+var state = map__37924__$1;
+var stack = cljs.core.get.call(null,map__37924__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
 if(cljs.core.truth_(parinfer.reader.escaping_QMARK_.call(null,stack))){
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stack","stack",-793405930),cljs.core.pop.call(null,stack)], null);
 } else {
@@ -197,10 +197,10 @@ return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"st
 }
 }
 }));
-cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,new cljs.core.Keyword(null,"default","default",-1987822328),(function (p__38832){
-var map__38833 = p__38832;
-var map__38833__$1 = ((((!((map__38833 == null)))?((((map__38833.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38833.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__38833):map__38833);
-var stack = cljs.core.get.call(null,map__38833__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
+cljs.core._add_method.call(null,parinfer.reader.push_char_STAR_,new cljs.core.Keyword(null,"default","default",-1987822328),(function (p__37926){
+var map__37927 = p__37926;
+var map__37927__$1 = ((((!((map__37927 == null)))?((((map__37927.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__37927.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__37927):map__37927);
+var stack = cljs.core.get.call(null,map__37927__$1,new cljs.core.Keyword(null,"stack","stack",-793405930));
 if(cljs.core.truth_(parinfer.reader.escaping_QMARK_.call(null,stack))){
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"stack","stack",-793405930),cljs.core.pop.call(null,stack)], null);
 } else {
@@ -211,15 +211,15 @@ return null;
 parinfer.reader.push_char = (function parinfer$reader$push_char(state){
 var new_data = parinfer.reader.push_char_STAR_.call(null,state);
 return cljs.core.merge_with.call(null,((function (new_data){
-return (function (p1__38836_SHARP_,p2__38835_SHARP_){
-var or__28826__auto__ = p2__38835_SHARP_;
-if(cljs.core.truth_(or__28826__auto__)){
-return or__28826__auto__;
+return (function (p1__37930_SHARP_,p2__37929_SHARP_){
+var or__28139__auto__ = p2__37929_SHARP_;
+if(cljs.core.truth_(or__28139__auto__)){
+return or__28139__auto__;
 } else {
-return p1__38836_SHARP_;
+return p1__37930_SHARP_;
 }
 });})(new_data))
 ,state,new_data);
 });
 
-//# sourceMappingURL=reader.js.map?rel=1506931008116
+//# sourceMappingURL=reader.js.map?rel=1506931522884

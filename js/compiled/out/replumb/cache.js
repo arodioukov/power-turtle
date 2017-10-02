@@ -10,8 +10,8 @@ replumb.cache.cljs__GT_transit_json = (function replumb$cache$cljs__GT_transit_j
 return cognitect.transit.write.call(null,cognitect.transit.writer.call(null,new cljs.core.Keyword(null,"json","json",1279968570)),source);
 });
 replumb.cache.compiled_by_string = (function replumb$cache$compiled_by_string(var_args){
-var G__39034 = arguments.length;
-switch (G__39034) {
+var G__38128 = arguments.length;
+switch (G__38128) {
 case 0:
 return replumb.cache.compiled_by_string.cljs$core$IFn$_invoke$arity$0();
 
@@ -37,8 +37,8 @@ return ["// Compiled by ClojureScript ",cljs.core.str.cljs$core$IFn$_invoke$arit
 replumb.cache.compiled_by_string.cljs$lang$maxFixedArity = 1;
 
 replumb.cache.cache_prefix_for_path = (function replumb$cache$cache_prefix_for_path(var_args){
-var G__39037 = arguments.length;
-switch (G__39037) {
+var G__38131 = arguments.length;
+switch (G__38131) {
 case 2:
 return replumb.cache.cache_prefix_for_path.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -73,4 +73,4 @@ replumb.cache.cached_js_valid_QMARK_ = (function replumb$cache$cached_js_valid_Q
 return cljs.core._EQ_.call(null,cljs.core._STAR_clojurescript_version_STAR_,replumb.cache.clojurescript_compiler_version.call(null,js_source));
 });
 
-//# sourceMappingURL=cache.js.map?rel=1506931008527
+//# sourceMappingURL=cache.js.map?rel=1506931523352

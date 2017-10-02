@@ -31,11 +31,11 @@ throw (new Error(["Expecting a keyword, got: ",cljs.core.str.cljs$core$IFn$_invo
  * (length-of-longest-key {}) ;=> 0
  */
 quil.util.length_of_longest_key = (function quil$util$length_of_longest_key(m){
-var or__28826__auto__ = cljs.core.last.call(null,cljs.core.sort.call(null,cljs.core.map.call(null,(function (p1__32992_SHARP_){
-return p1__32992_SHARP_.length();
+var or__28139__auto__ = cljs.core.last.call(null,cljs.core.sort.call(null,cljs.core.map.call(null,(function (p1__31609_SHARP_){
+return p1__31609_SHARP_.length();
 }),cljs.core.keys.call(null,m))));
-if(cljs.core.truth_(or__28826__auto__)){
-return or__28826__auto__;
+if(cljs.core.truth_(or__28139__auto__)){
+return or__28139__auto__;
 } else {
 return (0);
 }
@@ -47,8 +47,8 @@ return (0);
  * empty string and also without pad in which case it defaults to a single space
  */
 quil.util.gen_padding = (function quil$util$gen_padding(var_args){
-var G__32994 = arguments.length;
-switch (G__32994) {
+var G__31611 = arguments.length;
+switch (G__31611) {
 case 1:
 return quil.util.gen_padding.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -88,10 +88,10 @@ quil.util.gen_padding.cljs$lang$maxFixedArity = 3;
 quil.util.print_definition_list = (function quil$util$print_definition_list(definitions){
 var longest_key = quil.util.length_of_longest_key.call(null,definitions);
 return cljs.core.dorun.call(null,cljs.core.map.call(null,((function (longest_key){
-return (function (p__32996){
-var vec__32997 = p__32996;
-var k = cljs.core.nth.call(null,vec__32997,(0),null);
-var v = cljs.core.nth.call(null,vec__32997,(1),null);
+return (function (p__31613){
+var vec__31614 = p__31613;
+var k = cljs.core.nth.call(null,vec__31614,(0),null);
+var v = cljs.core.nth.call(null,vec__31614,(1),null);
 var len = k.length();
 var diff = (longest_key - len);
 var pad = quil.util.gen_padding.call(null,diff);
@@ -103,4 +103,4 @@ quil.util.prepare_quil_name = (function quil$util$prepare_quil_name(const_keywor
 return clojure.string.replace.call(null,clojure.string.upper_case.call(null,cljs.core.name.call(null,const_keyword)),/-/,"_");
 });
 
-//# sourceMappingURL=util.js.map?rel=1506930995570
+//# sourceMappingURL=util.js.map?rel=1506931509116

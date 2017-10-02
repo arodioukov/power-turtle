@@ -11,4 +11,4 @@ if(typeof power_turtle.model.flip !== 'undefined'){
 power_turtle.model.flip = reagent.core.atom.call(null,(90));
 }
 
-//# sourceMappingURL=model.js.map?rel=1506930995397
+//# sourceMappingURL=model.js.map?rel=1506931508884

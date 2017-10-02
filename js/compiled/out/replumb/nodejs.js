@@ -14,16 +14,16 @@ return CLOSURE_IMPORT_SCRIPT((goog.dependencies_.nameToPath[name]));
 cljs.core._STAR_loaded_libs_STAR_ = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, ["cljs.core",null], null), null);
 
 return goog.require = (function (name,reload){
-if(cljs.core.truth_((function (){var or__28826__auto__ = !(cljs.core.contains_QMARK_.call(null,cljs.core._STAR_loaded_libs_STAR_,name));
-if(or__28826__auto__){
-return or__28826__auto__;
+if(cljs.core.truth_((function (){var or__28139__auto__ = !(cljs.core.contains_QMARK_.call(null,cljs.core._STAR_loaded_libs_STAR_,name));
+if(or__28139__auto__){
+return or__28139__auto__;
 } else {
 return reload;
 }
 })())){
-cljs.core._STAR_loaded_libs_STAR_ = cljs.core.conj.call(null,(function (){var or__28826__auto__ = cljs.core._STAR_loaded_libs_STAR_;
-if(cljs.core.truth_(or__28826__auto__)){
-return or__28826__auto__;
+cljs.core._STAR_loaded_libs_STAR_ = cljs.core.conj.call(null,(function (){var or__28139__auto__ = cljs.core._STAR_loaded_libs_STAR_;
+if(cljs.core.truth_(or__28139__auto__)){
+return or__28139__auto__;
 } else {
 return cljs.core.PersistentHashSet.EMPTY;
 }
@@ -42,4 +42,4 @@ return null;
  */
 replumb.nodejs.default_opts = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"target","target",253001721),new cljs.core.Keyword(null,"nodejs","nodejs",321212524),new cljs.core.Keyword(null,"init-fns","init-fns",1169633539),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [replumb.nodejs.init_fn_BANG_], null)], null);
 
-//# sourceMappingURL=nodejs.js.map?rel=1506931010342
+//# sourceMappingURL=nodejs.js.map?rel=1506931525380

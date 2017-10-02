@@ -107,8 +107,8 @@ goog.require('replumb.common');
  *   The third parameter is the source string to be read and evaluated.
  */
 replumb.core.read_eval_call = (function replumb$core$read_eval_call(var_args){
-var G__40517 = arguments.length;
-switch (G__40517) {
+var G__39611 = arguments.length;
+switch (G__39611) {
 case 2:
 return replumb.core.read_eval_call.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -146,8 +146,8 @@ goog.exportSymbol('replumb.core.get_prompt', replumb.core.get_prompt);
  * Return the message string of the input `js/Error`.
  */
 replumb.core.error__GT_str = (function replumb$core$error__GT_str(var_args){
-var G__40520 = arguments.length;
-switch (G__40520) {
+var G__39614 = arguments.length;
+switch (G__39614) {
 case 1:
 return replumb.core.error__GT_str.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -184,8 +184,8 @@ replumb.core.error__GT_str.cljs$lang$maxFixedArity = 2;
  *   the result map.
  */
 replumb.core.unwrap_result = (function replumb$core$unwrap_result(var_args){
-var G__40523 = arguments.length;
-switch (G__40523) {
+var G__39617 = arguments.length;
+switch (G__39617) {
 case 1:
 return replumb.core.unwrap_result.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -206,19 +206,19 @@ return replumb.core.unwrap_result.call(null,false,result_map);
 });
 
 replumb.core.unwrap_result.cljs$core$IFn$_invoke$arity$2 = (function (include_warning_QMARK_,result_map){
-var map__40524 = result_map;
-var map__40524__$1 = ((((!((map__40524 == null)))?((((map__40524.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__40524.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__40524):map__40524);
-var error = cljs.core.get.call(null,map__40524__$1,new cljs.core.Keyword(null,"error","error",-978969032));
-var value = cljs.core.get.call(null,map__40524__$1,new cljs.core.Keyword(null,"value","value",305978217));
-var warning = cljs.core.get.call(null,map__40524__$1,new cljs.core.Keyword(null,"warning","warning",-1685650671));
+var map__39618 = result_map;
+var map__39618__$1 = ((((!((map__39618 == null)))?((((map__39618.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39618.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__39618):map__39618);
+var error = cljs.core.get.call(null,map__39618__$1,new cljs.core.Keyword(null,"error","error",-978969032));
+var value = cljs.core.get.call(null,map__39618__$1,new cljs.core.Keyword(null,"value","value",305978217));
+var warning = cljs.core.get.call(null,map__39618__$1,new cljs.core.Keyword(null,"warning","warning",-1685650671));
 if(cljs.core.truth_(error)){
 return error;
 } else {
-if(cljs.core.truth_((function (){var and__28814__auto__ = include_warning_QMARK_;
-if(cljs.core.truth_(and__28814__auto__)){
+if(cljs.core.truth_((function (){var and__28127__auto__ = include_warning_QMARK_;
+if(cljs.core.truth_(and__28127__auto__)){
 return warning;
 } else {
-return and__28814__auto__;
+return and__28127__auto__;
 }
 })())){
 return warning;
@@ -248,8 +248,8 @@ goog.exportSymbol('replumb.core.success_QMARK_', replumb.core.success_QMARK_);
  *   trace.
  */
 replumb.core.result__GT_string = (function replumb$core$result__GT_string(var_args){
-var G__40528 = arguments.length;
-switch (G__40528) {
+var G__39622 = arguments.length;
+switch (G__39622) {
 case 1:
 return replumb.core.result__GT_string.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -293,19 +293,19 @@ if(cljs.core.map_QMARK_.call(null,result_map)){
 throw (new Error("Assert failed: (map? result-map)"));
 }
 
-var map__40529 = result_map;
-var map__40529__$1 = ((((!((map__40529 == null)))?((((map__40529.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__40529.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__40529):map__40529);
-var error = cljs.core.get.call(null,map__40529__$1,new cljs.core.Keyword(null,"error","error",-978969032));
-var value = cljs.core.get.call(null,map__40529__$1,new cljs.core.Keyword(null,"value","value",305978217));
-var warning = cljs.core.get.call(null,map__40529__$1,new cljs.core.Keyword(null,"warning","warning",-1685650671));
+var map__39623 = result_map;
+var map__39623__$1 = ((((!((map__39623 == null)))?((((map__39623.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39623.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.call(null,cljs.core.hash_map,map__39623):map__39623);
+var error = cljs.core.get.call(null,map__39623__$1,new cljs.core.Keyword(null,"error","error",-978969032));
+var value = cljs.core.get.call(null,map__39623__$1,new cljs.core.Keyword(null,"value","value",305978217));
+var warning = cljs.core.get.call(null,map__39623__$1,new cljs.core.Keyword(null,"warning","warning",-1685650671));
 if(cljs.core.truth_(error)){
 return replumb.common.extract_message.call(null,print_stack_QMARK_,false,error);
 } else {
-if(cljs.core.truth_((function (){var and__28814__auto__ = include_warning_QMARK_;
-if(cljs.core.truth_(and__28814__auto__)){
+if(cljs.core.truth_((function (){var and__28127__auto__ = include_warning_QMARK_;
+if(cljs.core.truth_(and__28127__auto__)){
 return warning;
 } else {
-return and__28814__auto__;
+return and__28127__auto__;
 }
 })())){
 return warning;
@@ -358,8 +358,8 @@ replumb.core.result__GT_string.cljs$lang$maxFixedArity = 3;
  *   a file-path and data to write.
  */
 replumb.core.options = (function replumb$core$options(var_args){
-var G__40533 = arguments.length;
-switch (G__40533) {
+var G__39627 = arguments.length;
+switch (G__39627) {
 case 2:
 return replumb.core.options.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -380,9 +380,9 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 goog.exportSymbol('replumb.core.options', replumb.core.options);
 
 replumb.core.options.cljs$core$IFn$_invoke$arity$2 = (function (target,load_fn_BANG_){
-var G__40534 = target;
-var G__40534__$1 = (((G__40534 instanceof cljs.core.Keyword))?G__40534.fqn:null);
-switch (G__40534__$1) {
+var G__39628 = target;
+var G__39628__$1 = (((G__39628 instanceof cljs.core.Keyword))?G__39628.fqn:null);
+switch (G__39628__$1) {
 case "nodejs":
 case "node":
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"target","target",253001721),new cljs.core.Keyword(null,"nodejs","nodejs",321212524),new cljs.core.Keyword(null,"load-fn!","load-fn!",-896695751),load_fn_BANG_], null);
@@ -393,7 +393,7 @@ return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ta
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__40534__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__39628__$1)].join('')));
 
 }
 });
@@ -403,9 +403,9 @@ return replumb.core.options.call(null,target,src_paths,read_file_fn_BANG_,null);
 });
 
 replumb.core.options.cljs$core$IFn$_invoke$arity$4 = (function (target,src_paths,read_file_fn_BANG_,write_file_fn_BANG_){
-var G__40535 = target;
-var G__40535__$1 = (((G__40535 instanceof cljs.core.Keyword))?G__40535.fqn:null);
-switch (G__40535__$1) {
+var G__39629 = target;
+var G__39629__$1 = (((G__39629 instanceof cljs.core.Keyword))?G__39629.fqn:null);
+switch (G__39629__$1) {
 case "nodejs":
 case "node":
 return new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"target","target",253001721),new cljs.core.Keyword(null,"nodejs","nodejs",321212524),new cljs.core.Keyword(null,"read-file-fn!","read-file-fn!",-492428191),read_file_fn_BANG_,new cljs.core.Keyword(null,"src-paths","src-paths",-1052057603),src_paths,new cljs.core.Keyword(null,"write-file-fn!","write-file-fn!",-535483541),write_file_fn_BANG_], null);
@@ -416,7 +416,7 @@ return new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"ta
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__40535__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__39629__$1)].join('')));
 
 }
 });
@@ -447,4 +447,4 @@ replumb.repl.reset_last_warning_BANG_.call(null);
 return replumb.repl.read_eval_call.call(null,opts,cljs.core.identity,"(set! *e nil)");
 });
 
-//# sourceMappingURL=core.js.map?rel=1506931010715
+//# sourceMappingURL=core.js.map?rel=1506931525790

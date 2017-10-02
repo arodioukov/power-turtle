@@ -10,12 +10,12 @@ replumb.doc_maps.repl_special_doc = (function replumb$doc_maps$repl_special_doc(
 return cljs.core.assoc.call(null,replumb.doc_maps.repl_special_doc_map.call(null,name_symbol),new cljs.core.Keyword(null,"name","name",1843675177),name_symbol,new cljs.core.Keyword(null,"repl-special-function","repl-special-function",1262603725),true);
 });
 replumb.doc_maps.repl_special_QMARK_ = (function replumb$doc_maps$repl_special_QMARK_(form){
-var and__28814__auto__ = cljs.core.seq_QMARK_.call(null,form);
-if(and__28814__auto__){
+var and__28127__auto__ = cljs.core.seq_QMARK_.call(null,form);
+if(and__28127__auto__){
 return replumb.doc_maps.repl_special_doc_map.call(null,cljs.core.first.call(null,form));
 } else {
-return and__28814__auto__;
+return and__28127__auto__;
 }
 });
 
-//# sourceMappingURL=doc_maps.js.map?rel=1506931010232
+//# sourceMappingURL=doc_maps.js.map?rel=1506931525260

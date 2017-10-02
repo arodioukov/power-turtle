@@ -297,4 +297,4 @@ soda_ash.core.Transition = reagent.core.adapt_react_class.call(null,(semanticUIR
 
 soda_ash.core.Visibility = reagent.core.adapt_react_class.call(null,(semanticUIReact["Visibility"]));
 
-//# sourceMappingURL=core.js.map?rel=1506930995454
+//# sourceMappingURL=core.js.map?rel=1506931508950

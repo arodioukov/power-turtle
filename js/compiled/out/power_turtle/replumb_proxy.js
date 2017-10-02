@@ -12,8 +12,8 @@ return cljs.core.merge.call(null,replumb.core.options.call(null,new cljs.core.Ke
 power_turtle.replumb_proxy.read_eval_call = (function power_turtle$replumb_proxy$read_eval_call(opts,cb,source){
 var ns = replumb.repl.current_ns.call(null);
 return replumb.core.read_eval_call.call(null,opts,((function (ns){
-return (function (p1__40541_SHARP_){
-return cb.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"success?","success?",-122854052),replumb.core.success_QMARK_.call(null,p1__40541_SHARP_),new cljs.core.Keyword(null,"result","result",1415092211),p1__40541_SHARP_,new cljs.core.Keyword(null,"prev-ns","prev-ns",490483434),ns,new cljs.core.Keyword(null,"source","source",-433931539),source], null));
+return (function (p1__39635_SHARP_){
+return cb.call(null,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"success?","success?",-122854052),replumb.core.success_QMARK_.call(null,p1__39635_SHARP_),new cljs.core.Keyword(null,"result","result",1415092211),p1__39635_SHARP_,new cljs.core.Keyword(null,"prev-ns","prev-ns",490483434),ns,new cljs.core.Keyword(null,"source","source",-433931539),source], null));
 });})(ns))
 ,source);
 });
@@ -21,7 +21,7 @@ power_turtle.replumb_proxy.multiline_QMARK_ = (function power_turtle$replumb_pro
 try{replumb.repl.read_string.call(null,cljs.core.PersistentArrayMap.EMPTY,input);
 
 return false;
-}catch (e40542){var e = e40542;
+}catch (e39636){var e = e39636;
 return clojure.string.starts_with_QMARK_.call(null,e.message,"Unexpected EOF");
 }});
 power_turtle.replumb_proxy.eval_opts = (function power_turtle$replumb_proxy$eval_opts(opts){
@@ -32,4 +32,4 @@ return power_turtle.replumb_proxy.read_eval_call.call(null,opts,a,b);
 })], null);
 });
 
-//# sourceMappingURL=replumb_proxy.js.map?rel=1506931010731
+//# sourceMappingURL=replumb_proxy.js.map?rel=1506931525815
